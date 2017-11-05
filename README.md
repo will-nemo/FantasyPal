@@ -13,12 +13,14 @@ loadTeams.txt:
 	-loadTeams.txt is meant to be executed on the same command line as the executable
 
 Draftkings_2.0.exe:
-	-The Executable file. The executable parses through all 32 teams files storing all relevant statistics 
-	in vectors and then manipulating the data as such
-	-A sample command line call would be: Draftkings_2.0.exe < loadTeams.txt > out.txt
-	-In this case out.txt is an output file meant to display the results of the run
-	-At the point in time Draftkings_2.0.exe parses through all realevent stats and sorts each player from best
-	to worst with respect to each statistic. However there are some bugs involved in the YARDS PER GAME stat
+	The Executable file. The executable parses through all 32 teams files storing all relevant statistics 
+	in vectors and then manipulating the data as such. 
+	A sample command line call would be: Draftkings_2.0.exe < loadTeams.txt > out.txt
+	In this case out.txt is an output file meant to display the results of the run.
+	At the point in time Draftkings_2.0.exe parses through all realevent stats and sorts each player from best
+	to worst with respect to each statistic. However there are some bugs involved in the YARDS PER GAME stat.
+	When attempting to execute Draftkings_2.0.exe make sure that 'loadTeams.txt' and all 32 teams files with statistics
+	are located in the same directory as Draftkings_2.0.exe.
 
 out.txt:
 	-An output file containing the result of running the executable
