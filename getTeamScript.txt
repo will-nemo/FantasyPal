@@ -1,0 +1,288 @@
+endpoint = "http://www.footballdb.com/teams/nfl/buffalo-bills/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/buffaloBills.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/miami-dolphins/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/miamiDolphins.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/new-england-patriots/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/newEnglandPatriots.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+
+endpoint = "http://www.footballdb.com/teams/nfl/new-york-jets/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/newYorkJets.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/baltimore-ravens/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/baltimoreRavens.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/cincinnati-bengals/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/cincinnatiBengals.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/cleveland-browns/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/clevelandBrowns.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/pittsburgh-steelers/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/pittsburghSteelers.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/houston-texans/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/houstonTexans.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/indianapolis-colts/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/indianapolisColts.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/jacksonville-jaguars/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/jacksonvilleJaguars.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/tennessee-titans/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/tennesseeTitans.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/denver-broncos/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/denverBroncos.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/kansas-city-chiefs/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/kansasCityChiefs.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/san-diego-chargers/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/sanDiegoChargers.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/oakland-raiders/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/oaklandRaiders.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/dallas-cowboys/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/dallasCowboys.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/new-york-giants/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/newYorkGiants.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/philadelphia-eagles/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/philadelphiaEagles.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/washington-redskins/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/washingtonRedskins.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/chicago-bears/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/chicagoBears.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/detroit-lions/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/detroitLions.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/green-bay-packers/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/greenBayPackers.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/minnesota-vikings/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/minnesotaVikings.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/atlanta-falcons/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/atlantaFalcons.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/carolina-panthers/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/carolinaPanthers.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/new-orleans-saints/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/newOrleansSaints.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/tampa-bay-buccaneers/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/tampaBayBuccaneers.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/arizona-cardinals/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/arizonaCardinals.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/los-angeles-rams/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/losAngelesRams.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/san-francisco-49ers/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/sanFrancisco49ers.txt', 'w') { |f| f.write(YAML.dump(data))}
+
+endpoint = "http://www.footballdb.com/teams/nfl/seattle-seahawks/stats"
+doc = Nokogiri::HTML.parse(open(endpoint))
+games_table = doc.css("div").sort { |x,y| y.css("tr").count <=> x.css("tr").count }.first
+rows = games_table.css("tr")
+data = rows.map do |row|
+[row.at_css("td:nth-child(1)").try(:text), row.at_css("td:nth-child(2)").try(:text), row.at_css("td:nth-child(3)").try(:text), row.at_css("td:nth-child(4)").try(:text), row.at_css("td:nth-child(5)").try(:text), row.at_css("td:nth-child(6)").try(:text), row.at_css("td:nth-child(7)").try(:text), row.at_css("td:nth-child(8)").try(:text), row.at_css("td:nth-child(9)").try(:text), row.at_css("td:nth-child(10)").try(:text), row.at_css("td:nth-child(11)").try(:text), row.at_css("td:nth-child(12)").try(:text), row.at_css("td:nth-child(13)").try(:text), row.at_css("td:nth-child(14)").try(:text)]
+end
+File.open('C:/Users/Samuel/Desktop/DraftKings/AllTeams/seattleSeahawks.txt', 'w') { |f| f.write(YAML.dump(data))}
