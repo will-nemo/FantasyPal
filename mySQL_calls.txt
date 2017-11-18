@@ -1,0 +1,118 @@
+CREATE TABLE Quarterback(
+LastName varchar(30) NOT NULL,
+FirstName varchar(30) NOT NULL,
+attempts int,
+completions int,
+yards int,
+touchdowns int,
+interceptions int,
+longestGain int,
+sack int,
+tackleForLoss int,
+completionPercentage double,
+yardsPerAttempt double,
+touchdownPercentage double,
+interceptionPercentage double,
+passerRating double
+);
+
+CREATE TABLE QuarterbackRank(
+LastName varchar(30) NOT NULL,
+FirstName varchar(30) NOT NULL,
+attemptsRank int,
+completionsRank int,
+yardsRank int,
+touchdownsRank int,
+interceptionsRank int,
+longestGainRank int,
+sackRank int,
+tackleForLossRank int,
+completionPercentageRank double,
+yardsPerAttemptRank double,
+touchdownPercentageRank double,
+interceptionPercentageRank double,
+passerRatingRank double
+);
+
+CREATE TABLE Runningback(
+LastName varchar(30),
+FirstName varchar(30),
+attempts int,
+yards int,
+longestGain int,
+touchdowns int,
+firstDowns int,
+avgYardsPerCarry int,
+yardsPerGame int
+);
+
+CREATE TABLE RunningbackRank(
+LastName varchar(30),
+FirstName varchar(30),
+attemptsRank int,
+yardsRank int,
+longestGainRank int,
+touchdownsRank int,
+firstDownsRank int,
+avgYardsPerCarryRank int,
+yardsPerGameRank int
+);
+
+CREATE TABLE Receiving(
+LastName varchar(30),
+FirstName varchar(30),
+games int,
+receptions int,
+averageYards double,
+yardsPerGame double,
+longestGain int,
+touchdowns int,
+firstDowns int,
+targets int,
+yardsAfterCatch int
+);
+
+CREATE TABLE ReceivingRank(
+LastName varchar(30),
+FirstName varchar(30),
+gamesRank int,
+receptionsRank  int,
+averageYardsRank  int,
+yardsPerGameRank  int,
+longestGainRank  int,
+touchdownsRank  int,
+firstDownsRank  int,
+targetsRank  int,
+yardsAfterCatchRank  int
+);
+
+CREATE TABLE Defense(
+LastName varchar(30),
+FirstName varchar(30),
+interceptions int,
+touchdowns int,
+soloTackles int,
+assistedTackles int,
+totalTackles int,
+TFLYardsLoss int
+);
+
+CREATE TABLE DefenseRank(
+LastName varchar(30),
+FirstName varchar(30),
+interceptionsRank int,
+touchdownsRank int,
+soloTacklesRank int,
+assistedTacklesRank int,
+totalTacklesRank int,
+TFLYardsLossRank int
+);
+
+LOAD DATA LOCAL INFILE './mysql_QBTable_Rank.txt' INTO TABLE QuarterbackRank;
+LOAD DATA LOCAL INFILE './mysql_QBTable_Stat.txt' INTO TABLE Quarterback;
+LOAD DATA LOCAL INFILE './mysql_RBTable_Rank.txt' INTO TABLE RunningbackRank;
+LOAD DATA LOCAL INFILE './mysql_RBTable_Stat.txt' INTO TABLE Runningback;
+LOAD DATA LOCAL INFILE './mysql_WRTable_Rank.txt' INTO TABLE ReceivingRank;
+LOAD DATA LOCAL INFILE './mysql_WRTable_Stat.txt' INTO TABLE Receiving;
+LOAD DATA LOCAL INFILE './mysql_DEFTable_Rank.txt' INTO TABLE DefenseRank;
+LOAD DATA LOCAL INFILE './mysql_DEFTable_Stat.txt' INTO TABLE Defense;
