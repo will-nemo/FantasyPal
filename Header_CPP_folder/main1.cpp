@@ -86,17 +86,17 @@ int main()
 
 	do{
 
-		cout << "Enter in the name of the text file (.txt):\n";
+		//cout << "Enter in the name of the text file (.txt):\n";
 		cin >> filename;
 
 		filein.open(filename);
 
 		if (filein.is_open())
 		{
-			cout << "The file is opened " << endl;
+			//cout << "The file is opened " << endl;
 			teamname = filename;
 
-			cout << "this is the teamname " << teamname << endl;
+			//cout << "this is the teamname " << teamname << endl;
 
 			for (int i = 0; i < 15; i++)
 				getline(filein, garbage);
@@ -229,7 +229,7 @@ int main()
 				getline(filein, garbage);
 			}
 
-			cout << "we left the loop !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! " << endl;
+		//	cout << "we left the loop !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! " << endl;
 
 			for (int i = 0; i < 26; i++){									//collect garbage until next type of player (rb, wr, or def)
 				getline(filein, garbage);
@@ -574,7 +574,7 @@ int main()
 			teamCheck(teamname, filein);
 
 			//cout << "this is team name " << teamname << endl;
-			cout << "inside defence " << endl;
+			//cout << "inside defence " << endl;
 
 
 			do{
@@ -664,7 +664,7 @@ int main()
 
 			filein.close();
 
-			cout << "We made it through the " << teamname << " roster, fuck yeah br0 " << endl;
+			//cout << "We made it through the " << teamname << " roster, fuck yeah br0 " << endl;
 
 
 
@@ -711,8 +711,8 @@ int main()
 
 	} while (endInput == 1);
 
-	cout << "DONE" << endl;
-	cout << "Gathered all the data " << endl;
+	//cout << "DONE" << endl;
+	//cout << "Gathered all the data " << endl;
 
 
 
@@ -724,9 +724,9 @@ int main()
 	//		cout << "This is passerContainer[" << i << "] and this is the name of the player " << passerContainer[i]->GetFirstName() << endl;
 	//	}
 
-	cout << "testing the remove teamname fucntion " << endl;
+	//cout << "testing the remove teamname fucntion " << endl;
 	removeTeamPasser(passerContainer);
-	cout << "remove team test over" << endl;
+	//cout << "remove team test over" << endl;
 
 	//	for (int i = 0; i < passerContainer.size(); i++)
 	//	{
@@ -739,9 +739,9 @@ int main()
 	//		cout << "This is rusherContainer[" << i << "] and this is the name of the player " << rusherContainer[i]->GetFirstName() << endl;
 	//	}
 
-	cout << "testing the remove teamname fucntion " << endl;
+//	cout << "testing the remove teamname fucntion " << endl;
 	removeTeamRunner(rusherContainer);
-	cout << "remove team test over" << endl;
+//	cout << "remove team test over" << endl;
 
 	//	for (int i = 0; i < rusherContainer.size(); i++)
 	//	{
@@ -754,9 +754,9 @@ int main()
 	//		cout << "This is receiverContainer[" << i << "] and this is the name of the player " << receiverContainer[i]->GetFirstName() << endl;
 	//	}
 
-	cout << "testing the remove teamname fucntion " << endl;
+//	cout << "testing the remove teamname fucntion " << endl;
 	removeTeamReceiver(receiverContainer);
-	cout << "remove team test over" << endl;
+//	cout << "remove team test over" << endl;
 
 	//	for (int i = 0; i < receiverContainer.size(); i++)
 	//	{
@@ -769,9 +769,9 @@ int main()
 	//		cout << "This is defenseContainer[" << i << "] and this is the name of the player " << defenseContainer[i]->GetFirstName() << endl;
 	//	}
 
-	cout << "testing the remove teamname fucntion " << endl;
+//	cout << "testing the remove teamname fucntion " << endl;
 	removeTeamDefense(defenseContainer);
-	cout << "remove team test over" << endl;
+//	cout << "remove team test over" << endl;
 
 	//	for (int i = 0; i < defenseContainer.size(); i++)
 	//	{
@@ -780,15 +780,15 @@ int main()
 	
 
 	//*************************************************SORTING QB STATS FROM BEST TO WORST **********************************************
-	cout << "testing the sort by order of QB completions in decending order " << endl;
+//	cout << "testing the sort by order of QB completions in decending order " << endl;
 	std::sort(passerContainer.begin(), passerContainer.end(), sortPassingCompletions);		//sort Completions from best to worst 
-	cout << "sort complete" << endl;														//calls a function "sortPassingCompletions"
+//	cout << "sort complete" << endl;														//calls a function "sortPassingCompletions"
 
-	for (int i = 0; i < passerContainer.size(); i++)					//display QB name
-	{
-		cout << i <<", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : completions = " << passerContainer[i]->GetCompletions() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)					//display QB name
+//	{
+//		cout << i <<", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : completions = " << passerContainer[i]->GetCompletions() << endl;
+//	}
 
 	int QB_rank = 1;
 
@@ -806,27 +806,27 @@ int main()
 			passerContainer[i + 1]->SetCompletionsRank(QB_rank);
 	}
 
-	for (int i = 0; i < passerContainer.size(); i++)					//final output
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : completions Rank = " << passerContainer[i]->GetCompletionsRank() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)					//final output
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : completions Rank = " << passerContainer[i]->GetCompletionsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
 
 	
-	cout << "testing the sort by order of QB attempts in decending order " << endl;
+//	cout << "testing the sort by order of QB attempts in decending order " << endl;
 	std::sort(passerContainer.begin(), passerContainer.end(), sortPassingAttempts);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : attempts = " << passerContainer[i]->GetAttempts() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : attempts = " << passerContainer[i]->GetAttempts() << endl;
+//	}
 
 	QB_rank = 1;
 
@@ -844,24 +844,24 @@ int main()
 			passerContainer[i + 1]->SetAttemptsRank(QB_rank);
 	}
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : attempts Rank = " << passerContainer[i]->GetAttemptsRank() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : attempts Rank = " << passerContainer[i]->GetAttemptsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
-	cout << "testing the sort by order of QB yards in decending order " << endl;
+//	cout << "testing the sort by order of QB yards in decending order " << endl;
 	std::sort(passerContainer.begin(), passerContainer.end(), sortPassingYards);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : Yards = " << passerContainer[i]->GetYards() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : Yards = " << passerContainer[i]->GetYards() << endl;
+//	}
 
 	QB_rank = 1;
 
@@ -878,7 +878,7 @@ int main()
 		if (i == passerContainer.size() - 2)
 			passerContainer[i + 1]->SetYardsRank(QB_rank);
 	}
-
+/*
 	for (int i = 0; i < passerContainer.size(); i++)
 	{
 		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
@@ -887,18 +887,18 @@ int main()
 
 	cout << endl << endl;
 	cout << endl << endl;
+	*/
 
-
-	cout << "testing the sort by order of QB touchdowns in decending order " << endl;
+//	cout << "testing the sort by order of QB touchdowns in decending order " << endl;
 	std::sort(passerContainer.begin(), passerContainer.end(), sortPassingTouchdowns);
-	cout << "sort complete" << endl;
-
+//	cout << "sort complete" << endl;
+	/*
 	for (int i = 0; i < passerContainer.size(); i++)
 	{
 		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
 			<< " : touchdowns = " << passerContainer[i]->GetTouchdowns() << endl;
 	}
-
+	*/
 	QB_rank = 1;
 
 	for (int i = 0; i < passerContainer.size()-1; i++)
@@ -914,26 +914,26 @@ int main()
 		if (i == passerContainer.size() - 2)
 			passerContainer[i + 1]->SetTouchdownsRank(QB_rank);
 	}
-
+	/*
 	for (int i = 0; i < passerContainer.size(); i++)
 	{
 		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
 			<< " : touchdowns Rank = " << passerContainer[i]->GetTouchdownsRank() << endl;
 	}
-
+	
 	cout << endl << endl;
 	cout << endl << endl;
+	*/
 
-
-	cout << "testing the sort by order of QB interceptions in decending order " << endl;
+//	cout << "testing the sort by order of QB interceptions in decending order " << endl;
 	std::sort(passerContainer.begin(), passerContainer.end(), sortPassingInterceptions);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : interceptions = " << passerContainer[i]->GetInterceptions() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : interceptions = " << passerContainer[i]->GetInterceptions() << endl;
+//	}
 
 	QB_rank = 1;
 
@@ -951,26 +951,26 @@ int main()
 			passerContainer[i + 1]->SetInterceptionsRank(QB_rank);
 	}
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : interceptions Rank = " << passerContainer[i]->GetInterceptionsRank() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : interceptions Rank = " << passerContainer[i]->GetInterceptionsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
 
-	cout << "testing the sort by order of QB Longest Gain in decending order " << endl;
+//	cout << "testing the sort by order of QB Longest Gain in decending order " << endl;
 	std::sort(passerContainer.begin(), passerContainer.end(), sortPassingLongestGain);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : Longest Gain = " << passerContainer[i]->GetLongestGain() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : Longest Gain = " << passerContainer[i]->GetLongestGain() << endl;
+//	}
 
 	QB_rank = 1;
 
@@ -988,26 +988,26 @@ int main()
 			passerContainer[i + 1]->SetLongestGainRank(QB_rank);
 	}
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : Longest Gain Rank = " << passerContainer[i]->GetLongestGainRank() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : Longest Gain Rank = " << passerContainer[i]->GetLongestGainRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
 
-	cout << "testing the sort by order of QB Sacks in decending order " << endl;
+//	cout << "testing the sort by order of QB Sacks in decending order " << endl;
 	std::sort(passerContainer.begin(), passerContainer.end(), sortPassingSack);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : Sacks = " << passerContainer[i]->GetSack() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : Sacks = " << passerContainer[i]->GetSack() << endl;
+//	}
 
 	QB_rank = 1;
 
@@ -1025,26 +1025,26 @@ int main()
 			passerContainer[i + 1]->SetSackRank(QB_rank);
 	}
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : Sacks Rank = " << passerContainer[i]->GetSackRank() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : Sacks Rank = " << passerContainer[i]->GetSackRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
 
-	cout << "testing the sort by order of QB Tackle For loss in decending order " << endl;
+//	cout << "testing the sort by order of QB Tackle For loss in decending order " << endl;
 	std::sort(passerContainer.begin(), passerContainer.end(), sortPassingTFL);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : Tackle For loss = " << passerContainer[i]->GetTackleForLoss() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : Tackle For loss = " << passerContainer[i]->GetTackleForLoss() << endl;
+//	}
 
 	QB_rank = 1;
 
@@ -1061,7 +1061,7 @@ int main()
 		if (i == passerContainer.size() - 2)
 			passerContainer[i + 1]->SetTackleForLossRank(QB_rank);
 	}
-
+/*
 	for (int i = 0; i < passerContainer.size(); i++)
 	{
 		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
@@ -1070,17 +1070,17 @@ int main()
 
 	cout << endl << endl;
 	cout << endl << endl;
+*/
 
-
-	cout << "testing the sort by order of QB Completion Percentage in decending order " << endl;
+//	cout << "testing the sort by order of QB Completion Percentage in decending order " << endl;
 	std::sort(passerContainer.begin(), passerContainer.end(), sortPassingCompletionPercentage);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : Completion Percentage = " << passerContainer[i]->GetCompletionPercentage() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : Completion Percentage = " << passerContainer[i]->GetCompletionPercentage() << endl;
+//	}
 
 	QB_rank = 1;
 
@@ -1097,7 +1097,7 @@ int main()
 		if (i == passerContainer.size() - 2)
 			passerContainer[i + 1]->SetCompletionPercentageRank(QB_rank);
 	}
-
+	/*
 	for (int i = 0; i < passerContainer.size(); i++)
 	{
 		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
@@ -1106,18 +1106,18 @@ int main()
 
 	cout << endl << endl;
 	cout << endl << endl;
+*/
 
 
-
-	cout << "testing the sort by order of QB YPA in decending order " << endl;
+//	cout << "testing the sort by order of QB YPA in decending order " << endl;
 	std::sort(passerContainer.begin(), passerContainer.end(), sortPassingYPA);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : YPA = " << passerContainer[i]->GetYardsPerAttempt() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : YPA = " << passerContainer[i]->GetYardsPerAttempt() << endl;
+//	}
 
 	QB_rank = 1;
 
@@ -1135,27 +1135,27 @@ int main()
 			passerContainer[i + 1]->SetYardsPerAttemptRank(QB_rank);
 	}
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : YPA Rank = " << passerContainer[i]->GetYardsPerAttemptRank() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : YPA Rank = " << passerContainer[i]->GetYardsPerAttemptRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
-
-
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
-	cout << "testing the sort by order of QB touchdown percntage in decending order " << endl;
+
+
+//	cout << "testing the sort by order of QB touchdown percntage in decending order " << endl;
 	std::sort(passerContainer.begin(), passerContainer.end(), sortPassingTDP);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : touchdown percntage = " << passerContainer[i]->GetTouchdownPercentage() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : touchdown percntage = " << passerContainer[i]->GetTouchdownPercentage() << endl;
+//	}
 
 	QB_rank = 1;
 
@@ -1173,30 +1173,31 @@ int main()
 			passerContainer[i + 1]->SetTouchdownPercentageRank(QB_rank);
 	}
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : touchdown percntage Rank = " << passerContainer[i]->GetTouchdownPercentageRank() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : touchdown percntage Rank = " << passerContainer[i]->GetTouchdownPercentageRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
-
-
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
-	cout << "testing the sort by order of QB interception percntage in decending order " << endl;
+
+
+//	cout << "testing the sort by order of QB interception percntage in decending order " << endl;
 	std::sort(passerContainer.begin(), passerContainer.end(), sortPassingINTP);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : interception percntage = " << passerContainer[i]->GetInterceptionPercentage() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : interception percntage = " << passerContainer[i]->GetInterceptionPercentage() << endl;
+//	}
 
 	QB_rank = 1;
 
+	
 	for (int i = 0; i < passerContainer.size()-1; i++)
 	{
 		if (passerContainer[i]->GetInterceptionPercentage() == passerContainer[i + 1]->GetInterceptionPercentage())
@@ -1211,27 +1212,27 @@ int main()
 			passerContainer[i + 1]->SetInterceptionPercentageRank(QB_rank);
 	}
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : interception percntage Rank = " << passerContainer[i]->GetInterceptionPercentageRank() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : interception percntage Rank = " << passerContainer[i]->GetInterceptionPercentageRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
-
-
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
-	cout << "testing the sort by order of QB Passer Rating in decending order " << endl;
+
+
+//	cout << "testing the sort by order of QB Passer Rating in decending order " << endl;
 	std::sort(passerContainer.begin(), passerContainer.end(), sortPassingPasserRating);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < passerContainer.size(); i++)
-	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : Passer Rating = " << passerContainer[i]->GetPasserRating() << endl;
-	}
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : Passer Rating = " << passerContainer[i]->GetPasserRating() << endl;
+//	}
 
 	QB_rank = 1;
 
@@ -1249,51 +1250,77 @@ int main()
 			passerContainer[i + 1]->SetPasserRatingRank(QB_rank);
 	}
 
+//	for (int i = 0; i < passerContainer.size(); i++)
+//	{
+//		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
+//			<< " : Passer Rating Rank = " << passerContainer[i]->GetPasserRatingRank() << endl;
+//	}
+
+//	cout << endl << endl;
+//	cout << endl << endl;
+
+
+	
 	for (int i = 0; i < passerContainer.size(); i++)
 	{
-		cout << i << ", This is qb name : " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName()
-			<< " : Passer Rating Rank = " << passerContainer[i]->GetPasserRatingRank() << endl;
+		cout << passerContainer[i]->GetFirstName() << '\t' << passerContainer[i]->GetLastName() << '\t';
+		cout << passerContainer[i]->GetAttempts() << '\t';
+		cout << passerContainer[i]->GetCompletions() << '\t';
+		cout << passerContainer[i]->GetYards() << '\t';
+		cout << passerContainer[i]->GetTouchdowns() << '\t';
+		cout << passerContainer[i]->GetInterceptions() << '\t';
+		cout << passerContainer[i]->GetLongestGain() << '\t';
+		cout << passerContainer[i]->GetSackRank() << '\t';
+		cout << passerContainer[i]->GetTackleForLoss() << '\t';
+		cout << passerContainer[i]->GetCompletionPercentage() << '\t';
+		cout << passerContainer[i]->GetYardsPerAttempt() << '\t';
+		cout << passerContainer[i]->GetTouchdownPercentage() << '\t';
+		cout << passerContainer[i]->GetInterceptionPercentage() << '\t';
+		cout << passerContainer[i]->GetPasserRating() << endl;
+
+		//cout << endl << endl;
 	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+
 
 
 
 	for (int i = 0; i < passerContainer.size(); i++)
 	{
-		cout << i << " , QB name: " << passerContainer[i]->GetFirstName() << " " << passerContainer[i]->GetLastName() << endl;
-		cout << "Attempts Rank: " << passerContainer[i]->GetAttemptsRank() << endl;
-		cout << "Completions Rank: " << passerContainer[i]->GetCompletionsRank() << endl;
-		cout << "Yards Rank: " << passerContainer[i]->GetYardsRank() << endl;
-		cout << "Touchdown Rank: " << passerContainer[i]->GetTouchdownsRank() << endl;
-		cout << "Interceptions Rank: " << passerContainer[i]->GetInterceptionsRank() << endl;
-		cout << "LongestGain Rank: " << passerContainer[i]->GetLongestGainRank() << endl;
-		cout << "Sack Rank: " << passerContainer[i]->GetSackRank() << endl;
-		cout << "Tackle For Loss Rank: " << passerContainer[i]->GetTackleForLossRank() << endl;
-		cout << "Completion Percentage Rank: " << passerContainer[i]->GetCompletionPercentageRank() << endl;
-		cout << "Yards Per Attempts Rank: " << passerContainer[i]->GetYardsPerAttemptRank() << endl;
-		cout << "Touchdown Percentage Rank: " << passerContainer[i]->GetTouchdownPercentageRank() << endl;
-		cout << "Interception Percentage Rank: " << passerContainer[i]->GetInterceptionPercentageRank() << endl;
-		cout << "Passer Raiting Rank: " << passerContainer[i]->GetPasserRatingRank() << endl;
+		cout << passerContainer[i]->GetFirstName() << '\t' << passerContainer[i]->GetLastName() << '\t';
+		cout << passerContainer[i]->GetAttemptsRank() << '\t';
+		cout << passerContainer[i]->GetCompletionsRank() << '\t';
+		cout << passerContainer[i]->GetYardsRank() << '\t';
+		cout << passerContainer[i]->GetTouchdownsRank() << '\t';
+		cout << passerContainer[i]->GetInterceptionsRank() << '\t';
+		cout << passerContainer[i]->GetLongestGainRank() << '\t';
+		cout << passerContainer[i]->GetSackRank() << '\t';
+		cout << passerContainer[i]->GetTackleForLossRank() << '\t';
+		cout << passerContainer[i]->GetCompletionPercentageRank() << '\t';
+		cout << passerContainer[i]->GetYardsPerAttemptRank() << '\t';
+		cout << passerContainer[i]->GetTouchdownPercentageRank() << '\t';
+		cout << passerContainer[i]->GetInterceptionPercentageRank() << '\t';
+		cout << passerContainer[i]->GetPasserRatingRank() << endl;
 
-		cout << endl << endl;
+		//cout << endl << endl;
 	}
+	
+	
 
-	cout << "DONE WITH QB's *********************" << endl;
+	//cout << "DONE WITH QB's *********************" << endl;
 
 
 
 	//*************************************************SORTING RB STATS FROM BEST TO WORST **********************************************
-	cout << "testing the sort by order of RB games in decending order " << endl;
+//	cout << "testing the sort by order of RB games in decending order " << endl;
 	std::sort(rusherContainer.begin(), rusherContainer.end(), sortRushingGames);			//sort Games from best to worst 
-	cout << "sort complete" << endl;														//calls a function "sortRushingGames"
+//	cout << "sort complete" << endl;														//calls a function "sortRushingGames"
 
-	for (int i = 0; i < rusherContainer.size(); i++)					//display RB name
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : games = " << rusherContainer[i]->GetGames() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)					//display RB name
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : games = " << rusherContainer[i]->GetGames() << endl;
+//	}
 
 	int RB_rank = 1;
 
@@ -1311,25 +1338,25 @@ int main()
 			rusherContainer[i + 1]->SetGamesRank(RB_rank);
 	}
 
-	for (int i = 0; i < rusherContainer.size(); i++)					//final output
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : games Rank = " << rusherContainer[i]->GetGamesRank() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)					//final output
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : games Rank = " << rusherContainer[i]->GetGamesRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
-	cout << "testing the sort by order of RB attempts in decending order " << endl;
+//	cout << "testing the sort by order of RB attempts in decending order " << endl;
 	std::sort(rusherContainer.begin(), rusherContainer.end(), sortRushingAttempts);			
-	cout << "sort complete" << endl;														
+//	cout << "sort complete" << endl;														
 
-	for (int i = 0; i < rusherContainer.size(); i++)					
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : attempts = " << rusherContainer[i]->GetAttempts() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)					
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : attempts = " << rusherContainer[i]->GetAttempts() << endl;
+//	}
 
 	RB_rank = 1;
 
@@ -1347,25 +1374,25 @@ int main()
 			rusherContainer[i + 1]->SetAttemptsRank(RB_rank);
 	}
 
-	for (int i = 0; i < rusherContainer.size(); i++)					
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : attempts Rank = " << rusherContainer[i]->GetAttemptsRank() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)					
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : attempts Rank = " << rusherContainer[i]->GetAttemptsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
-	cout << "testing the sort by order of RB yards in decending order " << endl;
+//	cout << "testing the sort by order of RB yards in decending order " << endl;
 	std::sort(rusherContainer.begin(), rusherContainer.end(), sortRushingYards);			
-	cout << "sort complete" << endl;														
+//	cout << "sort complete" << endl;														
 
-	for (int i = 0; i < rusherContainer.size(); i++)					
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : yards = " << rusherContainer[i]->GetYards() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)					
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : yards = " << rusherContainer[i]->GetYards() << endl;
+//	}
 
 	RB_rank = 1;
 
@@ -1383,25 +1410,25 @@ int main()
 			rusherContainer[i + 1]->SetYardsRank(RB_rank);
 	}
 
-	for (int i = 0; i < rusherContainer.size(); i++)					
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : yards Rank = " << rusherContainer[i]->GetYardsRank() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)					
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : yards Rank = " << rusherContainer[i]->GetYardsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
-	cout << "testing the sort by order of RB LongestGain in decending order " << endl;
+//	cout << "testing the sort by order of RB LongestGain in decending order " << endl;
 	std::sort(rusherContainer.begin(), rusherContainer.end(), sortRushingLongestGain);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < rusherContainer.size(); i++)
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : LongestGain = " << rusherContainer[i]->GetLongestGain() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : LongestGain = " << rusherContainer[i]->GetLongestGain() << endl;
+//	}
 
 	RB_rank = 1;
 
@@ -1419,25 +1446,25 @@ int main()
 			rusherContainer[i + 1]->SetLongestGainRank(RB_rank);
 	}
 
-	for (int i = 0; i < rusherContainer.size(); i++)
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : LongestGain Rank = " << rusherContainer[i]->GetLongestGainRank() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : LongestGain Rank = " << rusherContainer[i]->GetLongestGainRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
-	cout << "testing the sort by order of RB touchdowns in decending order " << endl;
+//	cout << "testing the sort by order of RB touchdowns in decending order " << endl;
 	std::sort(rusherContainer.begin(), rusherContainer.end(), sortRushingTouchdowns);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < rusherContainer.size(); i++)
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : touchdowns = " << rusherContainer[i]->GetTouchdowns() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : touchdowns = " << rusherContainer[i]->GetTouchdowns() << endl;
+//	}
 
 	RB_rank = 1;
 
@@ -1455,25 +1482,25 @@ int main()
 			rusherContainer[i + 1]->SetTouchdownsRank(RB_rank);
 	}
 
-	for (int i = 0; i < rusherContainer.size(); i++)
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : touchdowns Rank = " << rusherContainer[i]->GetTouchdownsRank() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : touchdowns Rank = " << rusherContainer[i]->GetTouchdownsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
-	cout << "testing the sort by order of RB first Downs in decending order " << endl;
+//	cout << "testing the sort by order of RB first Downs in decending order " << endl;
 	std::sort(rusherContainer.begin(), rusherContainer.end(), sortRushingFirstDowns);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < rusherContainer.size(); i++)
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : first Downs = " << rusherContainer[i]->GetFirstDowns() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : first Downs = " << rusherContainer[i]->GetFirstDowns() << endl;
+//	}
 
 	RB_rank = 1;
 
@@ -1491,25 +1518,25 @@ int main()
 			rusherContainer[i + 1]->SetFirstDownsRank(RB_rank);
 	}
 
-	for (int i = 0; i < rusherContainer.size(); i++)
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : first Downs Rank = " << rusherContainer[i]->GetFirstDownsRank() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : first Downs Rank = " << rusherContainer[i]->GetFirstDownsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
-	cout << "testing the sort by order of RB avgYPC in decending order " << endl;
+//	cout << "testing the sort by order of RB avgYPC in decending order " << endl;
 	std::sort(rusherContainer.begin(), rusherContainer.end(), sortRushingAvgYardsPerCarry);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < rusherContainer.size(); i++)
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : AVG YPC = " << rusherContainer[i]->GetAverageYardsPerCarry() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : AVG YPC = " << rusherContainer[i]->GetAverageYardsPerCarry() << endl;
+//	}
 
 	RB_rank = 1;
 
@@ -1527,24 +1554,24 @@ int main()
 			rusherContainer[i + 1]->SetAverageYardsPerCarryRank(RB_rank);
 	}
 
-	for (int i = 0; i < rusherContainer.size(); i++)
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : AVG YPC Rank = " << rusherContainer[i]->GetAverageYardsPerCarryRank() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : AVG YPC Rank = " << rusherContainer[i]->GetAverageYardsPerCarryRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
-	cout << "testing the sort by order of RB YPG in decending order " << endl;
+//	cout << "testing the sort by order of RB YPG in decending order " << endl;
 	std::sort(rusherContainer.begin(), rusherContainer.end(), sortRushingYardsPerGame);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < rusherContainer.size(); i++)
-	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : YPG = " << rusherContainer[i]->GetYardsPerGame() << endl;
-	}
+//	for (int i = 0; i < rusherContainer.size(); i++)
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : YPG = " << rusherContainer[i]->GetYardsPerGame() << endl;
+//	}
 
 	RB_rank = 1;
 
@@ -1562,40 +1589,55 @@ int main()
 			rusherContainer[i + 1]->SetYardsPerGameRank(RB_rank);
 	}
 
+//	for (int i = 0; i < rusherContainer.size(); i++)
+//	{
+//		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
+//			<< " : YPG Rank = " << rusherContainer[i]->GetYardsPerGameRank() << endl;
+//	}
+
+//	cout << endl << endl;
+//	cout << endl << endl;
+
+	
 	for (int i = 0; i < rusherContainer.size(); i++)
 	{
-		cout << i << ", This is rb name : " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName()
-			<< " : YPG Rank = " << rusherContainer[i]->GetYardsPerGameRank() << endl;
+		cout << rusherContainer[i]->GetFirstName() << '\t' << rusherContainer[i]->GetLastName() << '\t';
+		cout << rusherContainer[i]->GetAttempts() << '\t';
+		cout << rusherContainer[i]->GetYards() << '\t';
+		cout << rusherContainer[i]->GetLongestGain() << '\t';
+		cout << rusherContainer[i]->GetTouchdowns() << '\t';
+		cout << rusherContainer[i]->GetFirstDowns() << '\t';
+		cout << rusherContainer[i]->GetAverageYardsPerCarry() << '\t';
+		cout << "\N" << endl;
 	}
-
-	cout << endl << endl;
-	cout << endl << endl;
+	
 
 
+
+	
 	for (int i = 0; i < rusherContainer.size(); i++)
 	{
-		cout << i << " , RB name: " << rusherContainer[i]->GetFirstName() << " " << rusherContainer[i]->GetLastName() << endl;
-		cout << "Attempts Rank: " << rusherContainer[i]->GetAttemptsRank() << endl;
-		cout << "Yards Rank: " << rusherContainer[i]->GetYardsRank() << endl;
-		cout << "LongestGain Rank: " << rusherContainer[i]->GetLongestGainRank() << endl;
-		cout << "Touchdown Rank: " << rusherContainer[i]->GetTouchdownsRank() << endl;
-		cout << "First Downs Rank: " << rusherContainer[i]->GetFirstDownsRank() << endl;
-		cout << "Avg Yards Per Carry Rank: " << rusherContainer[i]->GetAverageYardsPerCarryRank() << endl;
-		cout << "Yards Per Game Rank: " << rusherContainer[i]->GetYardsPerGameRank() << endl;
-		cout << endl << endl;
+		cout << rusherContainer[i]->GetFirstName() << '\t' << rusherContainer[i]->GetLastName() << '\t';
+		cout << rusherContainer[i]->GetAttemptsRank() << '\t';
+		cout << rusherContainer[i]->GetYardsRank() << '\t';
+		cout << rusherContainer[i]->GetLongestGainRank() << '\t';
+		cout << rusherContainer[i]->GetTouchdownsRank() << '\t';
+		cout << rusherContainer[i]->GetFirstDownsRank() << '\t';
+		cout << rusherContainer[i]->GetAverageYardsPerCarryRank() << '\t';
+		cout << rusherContainer[i]->GetYardsPerGameRank() << endl;
 	}
-
+	
 	//***************************************SORTING WR STATS FROM BEST TO WORST******************************
 
-	cout << "testing the sort by order of WR games in decending order " << endl;
+//	cout << "testing the sort by order of WR games in decending order " << endl;
 	std::sort(receiverContainer.begin(), receiverContainer.end(), sortReceivingGames);			//sort Games from best to worst 
-	cout << "sort complete" << endl;														//calls a function "sortReceivingGames"
+//	cout << "sort complete" << endl;														//calls a function "sortReceivingGames"
 
-	for (int i = 0; i < receiverContainer.size(); i++)					//display RB name
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : games = " << receiverContainer[i]->GetGames() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)					//display RB name
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : games = " << receiverContainer[i]->GetGames() << endl;
+//	}
 
 	int WR_rank = 1;
 
@@ -1613,25 +1655,25 @@ int main()
 			receiverContainer[i + 1]->SetGamesRank(WR_rank);
 	}
 
-	for (int i = 0; i < receiverContainer.size(); i++)					//final output
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : games Rank = " << receiverContainer[i]->GetGamesRank() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)					//final output
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : games Rank = " << receiverContainer[i]->GetGamesRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl; 
+//	cout << endl << endl;
+//	cout << endl << endl; 
 
 
-	cout << "testing the sort by order of WR receptions in decending order " << endl;
+//	cout << "testing the sort by order of WR receptions in decending order " << endl;
 	std::sort(receiverContainer.begin(), receiverContainer.end(), sortReceivingReceptions);			
-	cout << "sort complete" << endl;														
+//	cout << "sort complete" << endl;														
 
-	for (int i = 0; i < receiverContainer.size(); i++)					
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : receptions = " << receiverContainer[i]->GetReceptions() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)					
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : receptions = " << receiverContainer[i]->GetReceptions() << endl;
+//	}
 
 	WR_rank = 1;
 
@@ -1649,25 +1691,25 @@ int main()
 			receiverContainer[i + 1]->SetReceptionsRank(WR_rank);
 	}
 
-	for (int i = 0; i < receiverContainer.size(); i++)					
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : receptions Rank = " << receiverContainer[i]->GetReceptionsRank() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)					
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : receptions Rank = " << receiverContainer[i]->GetReceptionsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
-	cout << "testing the sort by order of WR yards in decending order " << endl;
+//	cout << "testing the sort by order of WR yards in decending order " << endl;
 	std::sort(receiverContainer.begin(), receiverContainer.end(), sortReceivingYards);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : yards = " << receiverContainer[i]->GetYards() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : yards = " << receiverContainer[i]->GetYards() << endl;
+//	}
 
 	WR_rank = 1;
 
@@ -1685,25 +1727,25 @@ int main()
 			receiverContainer[i + 1]->SetYardsRank(WR_rank);
 	}
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : yards Rank = " << receiverContainer[i]->GetYardsRank() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : yards Rank = " << receiverContainer[i]->GetYardsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
 
-	cout << "testing the sort by order of WR average yards in decending order " << endl;
+//	cout << "testing the sort by order of WR average yards in decending order " << endl;
 	std::sort(receiverContainer.begin(), receiverContainer.end(), sortReceivingAvgYards);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : avg yards = " << receiverContainer[i]->GetAverageYards() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : avg yards = " << receiverContainer[i]->GetAverageYards() << endl;
+//	}
 
 	WR_rank = 1;
 
@@ -1721,24 +1763,24 @@ int main()
 			receiverContainer[i + 1]->SetAverageYardsRank(WR_rank);
 	}
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : avg yards Rank = " << receiverContainer[i]->GetAverageYardsRank() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : avg yards Rank = " << receiverContainer[i]->GetAverageYardsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
-	cout << "testing the sort by order of WR ypg in decending order " << endl;
+//	cout << "testing the sort by order of WR ypg in decending order " << endl;
 	std::sort(receiverContainer.begin(), receiverContainer.end(), sortReceivingYPG);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : ypg = " << receiverContainer[i]->GetYardsPerGame() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : ypg = " << receiverContainer[i]->GetYardsPerGame() << endl;
+//	}
 
 	WR_rank = 1;
 
@@ -1756,24 +1798,24 @@ int main()
 			receiverContainer[i + 1]->SetYardsPerGameRank(WR_rank);
 	}
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : ypg Rank = " << receiverContainer[i]->GetYardsPerGameRank() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : ypg Rank = " << receiverContainer[i]->GetYardsPerGameRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
-	cout << "testing the sort by order of WR ypg in decending order " << endl;
+//	cout << "testing the sort by order of WR ypg in decending order " << endl;
 	std::sort(receiverContainer.begin(), receiverContainer.end(), sortReceivingLongestGain);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : longest Gain = " << receiverContainer[i]->GetLongestGain() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : longest Gain = " << receiverContainer[i]->GetLongestGain() << endl;
+//	}
 
 	WR_rank = 1;
 
@@ -1791,24 +1833,24 @@ int main()
 			receiverContainer[i + 1]->SetLongestGainRank(WR_rank);
 	}
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : longest Gain Rank = " << receiverContainer[i]->GetLongestGainRank() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : longest Gain Rank = " << receiverContainer[i]->GetLongestGainRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
-	cout << "testing the sort by order of WR touchdowns in decending order " << endl;
+//	cout << "testing the sort by order of WR touchdowns in decending order " << endl;
 	std::sort(receiverContainer.begin(), receiverContainer.end(), sortReceivingTouchdowns);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : touchdowns = " << receiverContainer[i]->GetTouchdowns() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : touchdowns = " << receiverContainer[i]->GetTouchdowns() << endl;
+//	}
 
 	WR_rank = 1;
 
@@ -1826,24 +1868,24 @@ int main()
 			receiverContainer[i + 1]->SetTouchdownsRank(WR_rank);
 	}
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : touchdowns Rank = " << receiverContainer[i]->GetTouchdownsRank() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : touchdowns Rank = " << receiverContainer[i]->GetTouchdownsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
-	cout << "testing the sort by order of WR firstdowns in decending order " << endl;
+//	cout << "testing the sort by order of WR firstdowns in decending order " << endl;
 	std::sort(receiverContainer.begin(), receiverContainer.end(), sortReceivingFirstdowns);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : firstdowns = " << receiverContainer[i]->GetFirstDowns() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : firstdowns = " << receiverContainer[i]->GetFirstDowns() << endl;
+//	}
 
 	WR_rank = 1;
 
@@ -1861,24 +1903,24 @@ int main()
 			receiverContainer[i + 1]->SetFirstDownsRank(WR_rank);
 	}
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : firstdowns Rank = " << receiverContainer[i]->GetFirstDownsRank() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : firstdowns Rank = " << receiverContainer[i]->GetFirstDownsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
-	cout << "testing the sort by order of WR targets in decending order " << endl;
+//	cout << "testing the sort by order of WR targets in decending order " << endl;
 	std::sort(receiverContainer.begin(), receiverContainer.end(), sortReceivingTargets);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : targers = " << receiverContainer[i]->GetTargets() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : targers = " << receiverContainer[i]->GetTargets() << endl;
+//	}
 
 	WR_rank = 1;
 
@@ -1896,24 +1938,24 @@ int main()
 			receiverContainer[i + 1]->SetTargetsRank(WR_rank);
 	}
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : targets Rank = " << receiverContainer[i]->GetTargetsRank() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : targets Rank = " << receiverContainer[i]->GetTargetsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
-	cout << "testing the sort by order of WR YAC in decending order " << endl;
+//	cout << "testing the sort by order of WR YAC in decending order " << endl;
 	std::sort(receiverContainer.begin(), receiverContainer.end(), sortReceivingYAC);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < receiverContainer.size(); i++)
-	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : YAC = " << receiverContainer[i]->GetYardsAfterCatch() << endl;
-	}
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : YAC = " << receiverContainer[i]->GetYardsAfterCatch() << endl;
+//	}
 
 	WR_rank = 1;
 
@@ -1931,45 +1973,61 @@ int main()
 			receiverContainer[i + 1]->SetYardsAfterCatchRank(WR_rank);
 	}
 
+//	for (int i = 0; i < receiverContainer.size(); i++)
+//	{
+//		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
+//			<< " : yac Rank = " << receiverContainer[i]->GetYardsAfterCatchRank() << endl;
+//	}
+
+//	cout << endl << endl;
+//	cout << endl << endl;
+
+	
 	for (int i = 0; i < receiverContainer.size(); i++)
 	{
-		cout << i << ", This is WR name : " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName()
-			<< " : yac Rank = " << receiverContainer[i]->GetYardsAfterCatchRank() << endl;
+		cout << receiverContainer[i]->GetFirstName() << '\t' << receiverContainer[i]->GetLastName() << '\t';
+		cout << receiverContainer[i]->GetGames() << '\t';
+		cout << receiverContainer[i]->GetReceptions() << '\t';
+		cout << receiverContainer[i]->GetYards() << '\t';
+		cout << receiverContainer[i]->GetAverageYards() << '\t';
+		cout << "0" << '\t';
+		cout << receiverContainer[i]->GetLongestGain() << '\t';
+		cout << receiverContainer[i]->GetTouchdowns() << '\t';
+		cout << receiverContainer[i]->GetFirstDowns() << '\t';
+		cout << receiverContainer[i]->GetTargets() << '\t';
+		cout << receiverContainer[i]->GetYardsAfterCatch() << endl;
 	}
 
-	cout << endl << endl;
-	cout << endl << endl;
 
-
+	
 	for (int i = 0; i < receiverContainer.size(); i++)
 	{
-		cout << i << " , WR name: " << receiverContainer[i]->GetFirstName() << " " << receiverContainer[i]->GetLastName() << endl;
-		cout << "Games Rank: " << receiverContainer[i]->GetGamesRank() << endl;
-		cout << "Receptions Rank: " << receiverContainer[i]->GetReceptionsRank() << endl;
-		cout << "Yards Rank: " << receiverContainer[i]->GetYardsRank() << endl;
-		cout << "Average Yards Rank: " << receiverContainer[i]->GetAverageYardsRank() << endl;
-		cout << "YPG Rank: " << receiverContainer[i]->GetYardsPerGameRank() << endl;
-		cout << "Longest Gain Rank: " << receiverContainer[i]->GetLongestGainRank() << endl;
-		cout << "Touchdowns Rank: " << receiverContainer[i]->GetTouchdownsRank() << endl;
-		cout << "Firstdowns Rank: " << receiverContainer[i]->GetFirstDownsRank() << endl;
-		cout << "Targets Rank: " << receiverContainer[i]->GetTargetsRank() << endl;
-		cout << "Yards After Catch Rank: " << receiverContainer[i]->GetYardsAfterCatchRank() << endl;
-
-
-		cout << endl << endl;
+		cout << receiverContainer[i]->GetFirstName() << '\t' << receiverContainer[i]->GetLastName() << '\t';
+		cout << receiverContainer[i]->GetGamesRank() << '\t';
+		cout << receiverContainer[i]->GetReceptionsRank() << '\t';
+		cout << receiverContainer[i]->GetYardsRank() << '\t';
+		cout << receiverContainer[i]->GetAverageYardsRank() << '\t';
+		cout << receiverContainer[i]->GetYardsPerGameRank() << '\t';
+		cout << receiverContainer[i]->GetLongestGainRank() << '\t';
+		cout << receiverContainer[i]->GetTouchdownsRank() << '\t';
+		cout << receiverContainer[i]->GetFirstDownsRank() << '\t';
+		cout << receiverContainer[i]->GetTargetsRank() << '\t';
+		cout << receiverContainer[i]->GetYardsAfterCatchRank() << endl;
 	}
+	
 
+	
 	//*************************SORTING DEFENSIVE STATS FROM BEST TO WORST***********************
 
-	cout << "testing the sort by order of Defense interceptions in decending order " << endl;
+//	cout << "testing the sort by order of Defense interceptions in decending order " << endl;
 	std::sort(defenseContainer.begin(), defenseContainer.end(), sortDefenseInterceptions);			//sort interceptions from best to worst 
-	cout << "sort complete" << endl;														//calls a function "sortDefenseInterceptions"
+//	cout << "sort complete" << endl;														//calls a function "sortDefenseInterceptions"
 
-	for (int i = 0; i < defenseContainer.size(); i++)					//display defensive player name
-	{
-		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
-			<< " : interceptions = " << defenseContainer[i]->GetInterceptions() << endl;
-	}
+//	for (int i = 0; i < defenseContainer.size(); i++)					//display defensive player name
+//	{
+//		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
+//			<< " : interceptions = " << defenseContainer[i]->GetInterceptions() << endl;
+//	}
 
 	int Def_rank = 1;
 
@@ -1987,24 +2045,24 @@ int main()
 			defenseContainer[i + 1]->SetInterceptionsRank(Def_rank);
 	}
 
-	for (int i = 0; i < defenseContainer.size(); i++)					//final output
-	{
-		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
-			<< " : interceptions Rank = " << defenseContainer[i]->GetInterceptionsRank() << endl;
-	}
+//	for (int i = 0; i < defenseContainer.size(); i++)					//final output
+//	{
+//		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
+//			<< " : interceptions Rank = " << defenseContainer[i]->GetInterceptionsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
-	cout << "testing the sort by order of Defense touchdowns in decending order " << endl;
+//	cout << "testing the sort by order of Defense touchdowns in decending order " << endl;
 	std::sort(defenseContainer.begin(), defenseContainer.end(), sortDefenseTouchdowns);			
-	cout << "sort complete" << endl;														
+//	cout << "sort complete" << endl;														
 
-	for (int i = 0; i < defenseContainer.size(); i++)					
-	{
-		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
-			<< " : touchdowns = " << defenseContainer[i]->GetTouchdowns() << endl;
-	}
+//	for (int i = 0; i < defenseContainer.size(); i++)					
+//	{
+//		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
+//			<< " : touchdowns = " << defenseContainer[i]->GetTouchdowns() << endl;
+//	}
 
 	Def_rank = 1;
 
@@ -2022,24 +2080,24 @@ int main()
 			defenseContainer[i + 1]->SetTouchdownsRank(Def_rank);
 	}
 
-	for (int i = 0; i < defenseContainer.size(); i++)					
-	{
-		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
-			<< " : touchdowns Rank = " << defenseContainer[i]->GetTouchdownsRank() << endl;
-	}
+//	for (int i = 0; i < defenseContainer.size(); i++)					
+//	{
+//		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
+//			<< " : touchdowns Rank = " << defenseContainer[i]->GetTouchdownsRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
-	cout << "testing the sort by order of Defense solo Tackles in decending order " << endl;
+//	cout << "testing the sort by order of Defense solo Tackles in decending order " << endl;
 	std::sort(defenseContainer.begin(), defenseContainer.end(), sortDefenseSoloTack);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < defenseContainer.size(); i++)
-	{
-		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
-			<< " : solo tack = " << defenseContainer[i]->GetSoloTackles() << endl;
-	}
+//	for (int i = 0; i < defenseContainer.size(); i++)
+//	{
+//		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
+//			<< " : solo tack = " << defenseContainer[i]->GetSoloTackles() << endl;
+//	}
 
 	Def_rank = 1;
 
@@ -2057,24 +2115,24 @@ int main()
 			defenseContainer[i + 1]->SetSoloTacklesRank(Def_rank);
 	}
 
-	for (int i = 0; i < defenseContainer.size(); i++)
-	{
-		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
-			<< " : solo Tack Rank = " << defenseContainer[i]->GetSoloTacklesRank() << endl;
-	}
+//	for (int i = 0; i < defenseContainer.size(); i++)
+//	{
+//		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
+//			<< " : solo Tack Rank = " << defenseContainer[i]->GetSoloTacklesRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
-	cout << "testing the sort by order of Defense assisted tack in decending order " << endl;
+//	cout << "testing the sort by order of Defense assisted tack in decending order " << endl;
 	std::sort(defenseContainer.begin(), defenseContainer.end(), sortDefenseAssisTack);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < defenseContainer.size(); i++)
-	{
-		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
-			<< " : assis tack = " << defenseContainer[i]->GetAssistedTackles() << endl;
-	}
+//	for (int i = 0; i < defenseContainer.size(); i++)
+//	{
+//		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
+//			<< " : assis tack = " << defenseContainer[i]->GetAssistedTackles() << endl;
+//	}
 
 	Def_rank = 1;
 
@@ -2092,24 +2150,24 @@ int main()
 			defenseContainer[i + 1]->SetAssistedTacklesRank(Def_rank);
 	}
 
-	for (int i = 0; i < defenseContainer.size(); i++)
-	{
-		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
-			<< " : assisted tack Rank = " << defenseContainer[i]->GetAssistedTacklesRank() << endl;
-	}
+//	for (int i = 0; i < defenseContainer.size(); i++)
+//	{
+//		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
+//			<< " : assisted tack Rank = " << defenseContainer[i]->GetAssistedTacklesRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
-	cout << "testing the sort by order of Defense total tackles in decending order " << endl;
+//	cout << "testing the sort by order of Defense total tackles in decending order " << endl;
 	std::sort(defenseContainer.begin(), defenseContainer.end(), sortDefenseTotalTack);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < defenseContainer.size(); i++)
-	{
-		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
-			<< " : total tack = " << defenseContainer[i]->GetTotalTackles() << endl;
-	}
+//	for (int i = 0; i < defenseContainer.size(); i++)
+//	{
+//		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
+//			<< " : total tack = " << defenseContainer[i]->GetTotalTackles() << endl;
+//	}
 
 	Def_rank = 1;
 
@@ -2127,24 +2185,24 @@ int main()
 			defenseContainer[i + 1]->SetTotalTacklesRank(Def_rank);
 	}
 
-	for (int i = 0; i < defenseContainer.size(); i++)
-	{
-		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
-			<< " : total tack Rank = " << defenseContainer[i]->GetTotalTacklesRank() << endl;
-	}
+//	for (int i = 0; i < defenseContainer.size(); i++)
+//	{
+//		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
+//			<< " : total tack Rank = " << defenseContainer[i]->GetTotalTacklesRank() << endl;
+//	}
 
-	cout << endl << endl;
-	cout << endl << endl;
+//	cout << endl << endl;
+//	cout << endl << endl;
 
-	cout << "testing the sort by order of Defense touchdowns in decending order " << endl;
+//	cout << "testing the sort by order of Defense touchdowns in decending order " << endl;
 	std::sort(defenseContainer.begin(), defenseContainer.end(), sortDefenseTouchdowns);
-	cout << "sort complete" << endl;
+//	cout << "sort complete" << endl;
 
-	for (int i = 0; i < defenseContainer.size(); i++)
-	{
-		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
-			<< " : yards lost = " << defenseContainer[i]->GetTackleForLossYds() << endl;
-	}
+//	for (int i = 0; i < defenseContainer.size(); i++)
+//	{
+//		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
+//			<< " : yards lost = " << defenseContainer[i]->GetTackleForLossYds() << endl;
+//	}
 
 	Def_rank = 1;
 
@@ -2162,28 +2220,47 @@ int main()
 			defenseContainer[i + 1]->SetTackleForLossYdsRank(Def_rank);
 	}
 
+//	for (int i = 0; i < defenseContainer.size(); i++)
+//	{
+//		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
+//			<< " : tfl yards Rank = " << defenseContainer[i]->GetTackleForLossYdsRank() << endl;
+//	}
+
+//	cout << endl << endl;
+//	cout << endl << endl;
+
 	for (int i = 0; i < defenseContainer.size(); i++)
 	{
-		cout << i << ", This is defense name : " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName()
-			<< " : tfl yards Rank = " << defenseContainer[i]->GetTackleForLossYdsRank() << endl;
+		cout << defenseContainer[i]->GetFirstName() << '\t' << defenseContainer[i]->GetLastName() << '\t';
+		cout << defenseContainer[i]->GetInterceptions() << '\t';
+		cout << defenseContainer[i]->GetTouchdowns() << '\t';
+		cout << defenseContainer[i]->GetSoloTackles() << '\t';
+		cout << defenseContainer[i]->GetAssistedTackles() << '\t';
+		cout << defenseContainer[i]->GetTotalTackles() << '\t';
+		cout << defenseContainer[i]->GetTackleForLossYds() << endl;
 	}
 
-	cout << endl << endl;
-	cout << endl << endl;
 
-	for (int i = 0; i < defenseContainer.size(); i++)
-	{
-		cout << i << " , Defender name: " << defenseContainer[i]->GetFirstName() << " " << defenseContainer[i]->GetLastName() << endl;
-		cout << "interceptions Rank: " << defenseContainer[i]->GetInterceptionsRank() << endl;
-		cout << "Touchdowns Rank: " << defenseContainer[i]->GetTouchdownsRank() << endl;
-		cout << "SoloTackles Rank: " << defenseContainer[i]->GetSoloTacklesRank() << endl;
-		cout << "AssistedTackles Rank: " << defenseContainer[i]->GetAssistedTacklesRank() << endl;
-		cout << "TotalTackles Rank: " << defenseContainer[i]->GetTotalTacklesRank() << endl;
-		cout << "TackleForLossYds Rank: " << defenseContainer[i]->GetTackleForLossYdsRank() << endl;
-		cout << endl << endl;
-	}
 
 	
+	for (int i = 0; i < defenseContainer.size(); i++)
+	{
+		cout << defenseContainer[i]->GetFirstName() << '\t' << defenseContainer[i]->GetLastName() << '\t';
+		cout << defenseContainer[i]->GetInterceptionsRank() << '\t';
+		cout << defenseContainer[i]->GetTouchdownsRank() << '\t';
+		cout << defenseContainer[i]->GetSoloTacklesRank() << '\t';
+		cout << defenseContainer[i]->GetAssistedTacklesRank() << '\t';
+		cout << defenseContainer[i]->GetTotalTacklesRank() << '\t';
+		cout << defenseContainer[i]->GetTackleForLossYdsRank() << endl;
+	}
+	
+	
+
+	//outputting to file
+
+
+
+
 
 
 
