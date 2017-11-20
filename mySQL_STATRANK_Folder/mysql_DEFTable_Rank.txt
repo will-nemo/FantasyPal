@@ -1,0 +1,974 @@
+﻿Sam	Martin	2	2	51	29	67	2
+Trumaine	Johnson	7	3	28	26	41	2
+Aqib	Talib	7	3	41	26	54	2
+Johnathan	Joseph	6	3	37	23	47	2
+C.J.	Mosley	6	3	2	12	4	3
+Janoris	Jenkins	7	3	30	26	43	4
+Robert	McClain	7	3	32	27	46	4
+Lamarcus	JoynerL. Joyner	6	3	36	26	49	4
+Cameron	Jordan	7	3	31	18	36	5
+Damarious	Randall	5	3	30	25	42	6
+Jason	McCourty	5	3	32	24	43	6
+Carlos	Dunlap	7	3	36	23	46	7
+Dylan	Cole	6	3	42	19	48	8
+Telvin	Smith	6	3	6	17	10	8
+Ryan	Kerrigan	7	3	39	22	48	9
+John	Simon	7	3	26	15	28	10
+Adrian	Amos	7	3	18	26	31	11
+Jimmy	SmithJ. Smith	6	3	31	28	46	11
+Justin	Coleman	7	3	39	27	53	12
+William	Jackson	7	3	41	27	55	13
+Byron	Jones	7	3	27	18	32	13
+Marshon	Lattimore	6	3	29	24	40	13
+Eddie	Jackson	7	3	27	25	39	13
+Earl	Thomas	6	3	27	15	29	13
+Barry	Church	7	3	24	21	32	14
+Jalen	Mills	5	3	18	20	25	15
+Zach	Brown	8	4	4	4	2	16
+Joe	Schobert	7	4	10	3	3	17
+Christian	Kirksey	8	4	13	3	5	18
+Preston	Brown	8	4	24	2	6	19
+Ryan	Shazier	6	4	3	15	6	19
+Blake	Martinez	8	4	5	12	6	20
+Darron	Lee	8	4	7	12	7	21
+Hayes	Pullard	7	4	10	10	8	22
+Bobby	Wagner	7	4	8	12	8	23
+Deion	Jones	7	4	9	12	9	24
+Devin	McCourty	7	4	3	21	10	24
+Wesley	Woodyard	8	4	11	13	11	25
+K.J.	Wright	8	4	15	9	12	26
+Myles	Jack	8	4	13	12	12	27
+Nick	Vigil	7	4	21	5	13	28
+Kyle	Van Noy	8	4	6	20	13	29
+Antonio	Morrison	8	4	21	6	14	30
+Luke	Kuechly	6	4	16	10	14	30
+Jatavis	Brown	8	4	15	12	15	30
+Danny	Trevathan	7	4	15	13	16	31
+Jaquiski	Tartt	7	4	15	13	16	32
+Keanu	Neal	8	4	14	16	17	33
+Brandon	Marshall	8	4	18	12	18	34
+Christian	Jones	8	4	23	9	19	35
+Avery	Williamson	8	4	24	8	19	35
+Daniel	Sorensen	8	4	16	16	19	36
+Jaylon	Smith	8	4	27	7	20	37
+Matthias	Farley	7	4	21	12	20	38
+Kendell	Beckwith	8	4	12	22	20	38
+Marcus	Maye	6	4	18	16	21	38
+Nigel	Bradham	8	4	20	14	21	38
+Karl	Joseph	8	4	17	17	21	39
+Reshad	Jones	7	4	14	21	21	40
+Vincent	Rey	8	4	27	8	22	41
+Ramon	Humber	8	4	18	18	23	41
+Benardrick	McKinney	8	4	24	12	23	42
+Reggie	Nelson	8	4	21	15	23	43
+Malcolm	Jenkins	8	4	12	25	23	44
+Mychal	Kendricks	8	4	19	18	24	45
+Landon	Collins	7	4	18	20	25	46
+Khalil	Mack	8	4	19	19	25	47
+B.J.	Goodson	8	4	19	19	25	48
+Cory	James	8	4	20	18	25	48
+Alec	Ogletree	8	4	19	19	25	49
+Vince	Williams	8	4	18	20	25	50
+Kevin	Byard	4	4	25	14	26	51
+Ron	Parker	7	4	17	22	26	51
+Darqueze	Dennard	8	4	22	17	26	52
+Derrick	Johnson	8	4	25	14	26	53
+Sean	Davis	8	4	18	21	26	53
+Jordan	Poyer	6	4	23	17	27	54
+Kyle	Fuller	8	4	16	24	27	55
+Christopher	Conte	7	4	16	24	27	55
+Thomas	Davis	8	4	22	19	28	56
+Jamar	Taylor	8	4	22	19	28	57
+Terrance	Mitchell	6	4	17	24	28	57
+DeForest	Buckner	8	4	21	20	28	58
+Sean	Lee	8	4	18	23	28	59
+NaVorro	Bowman	8	4	29	13	29	59
+Dontae	Johnson	8	4	19	23	29	59
+Shaq	Thompson	8	4	23	19	29	60
+Kareem	Jackson	8	4	26	16	29	61
+Tony	Jefferson	8	4	26	16	29	62
+Kenny	Vaccaro	5	4	22	20	29	63
+Ha	Clinton-Dix	7	4	20	22	29	64
+Lawrence	Timmons	8	4	21	22	30	64
+A.J.	Klein	8	4	26	17	30	65
+Vernon	Hargreaves	8	4	18	25	30	66
+Trey	Flowers	8	4	24	19	30	67
+Karlos	Dansby	8	4	22	21	30	68
+Patrick	Chung	8	4	22	21	30	68
+Eric	Weddle	6	4	24	20	31	68
+Justin	Simmons	7	4	24	20	31	68
+Lavonte	David	8	4	21	23	31	68
+Trevor	Williams	7	4	20	24	31	68
+Darryl	Skrine	7	4	18	26	31	69
+Micah	Hyde	3	4	22	23	32	70
+Todd	Davis	8	4	29	16	32	71
+Kam	Chancellor	8	4	27	18	32	72
+Justin	Houston	8	4	23	22	32	73
+Adrian	Phillips	7	4	23	22	32	74
+Derrick	Kindred	7	4	24	22	33	74
+Brian	Poole	8	4	27	19	33	75
+Jeff	Heath	8	4	23	23	33	76
+D.J.	Swearinger	8	4	24	23	34	77
+Jason	Pierre-Paul	8	4	27	20	34	78
+Patrick	Onwuasor	8	4	24	23	34	79
+Darian	Thompson	7	4	22	25	34	80
+Tyrann	Mathieu	7	4	21	26	34	81
+Leonard	Williams	8	4	37	11	35	82
+Damon	Harrison	8	4	30	18	35	83
+Malcolm	Butler	6	4	22	26	35	84
+Calais	Campbell	8	4	31	17	35	85
+Michael	Mitchell	8	4	31	17	35	86
+Mike	Hilton	7	4	29	19	35	87
+Jimmie	Ward	8	4	24	24	35	88
+Darian	Stewart	7	4	25	23	35	88
+Shaquill	Griffin	8	4	24	24	35	88
+Andre	Hal	6	4	35	13	35	88
+Zach	Cunningham	8	4	36	12	35	88
+Jamie	Collins	8	4	29	20	36	89
+Korey	Toomer	8	4	33	16	36	90
+Tashaun	Gipson	5	4	26	23	36	90
+Melvin	Ingram	8	4	25	24	36	91
+K'Waun	Williams	8	4	27	22	36	92
+Elandon	Roberts	8	4	26	23	36	92
+Mason	Foster	7	4	29	20	36	93
+Tre'Davious	White	7	4	25	24	36	94
+Keenan	Robinson	8	4	31	19	37	94
+Bennie	Logan	8	4	30	20	37	95
+Morris	Claiborne	7	4	28	22	37	96
+Justin	Ellis	8	4	35	15	37	96
+Anthony	Brown	7	4	26	24	37	96
+Michael	Brockers	8	4	28	23	38	97
+Craig	Robertson	8	4	31	20	38	98
+Leonard	Johnson	8	4	28	23	38	99
+Lardarius	Webb	6	4	23	28	38	100
+D.J.	Reader	8	4	39	12	38	101
+Rashaan	Melvin	6	4	28	23	38	102
+Muhammad	Wilkerson	7	4	34	17	38	103
+Chandler	Jones	8	4	27	24	38	104
+Matt	Judon	8	4	27	24	38	105
+Shawn	Williams	8	4	33	18	38	106
+Demarcus	Lawrence	8	4	30	21	38	107
+Kurt	Coleman	8	4	30	21	38	108
+Morgan	Burnett	8	4	32	19	38	108
+Marcus	Williams	7	4	29	22	38	108
+George	Iloka	7	4	33	19	39	108
+Allen	Bailey	8	4	35	17	39	109
+Jordan	Hicks	8	4	32	20	39	110
+Michael	Pierce	8	4	30	22	39	111
+Josh	Jones	8	4	25	27	39	112
+T.J.	Watt	7	4	29	23	39	113
+Shareece	Wright	8	4	27	25	39	114
+Dominique	Rodgers-Cromartie	8	4	34	19	40	115
+Bruce	Irvin	8	4	38	15	40	116
+Vonn	Bell	8	4	32	21	40	117
+Grady	Jarrett	8	4	34	19	40	117
+Rashard	Robinson	7	4	31	22	40	118
+Cameron	Heyward	8	4	32	21	40	119
+Jabrill	Peppers	8	4	30	23	40	120
+Alex	Okafor	8	4	31	22	40	121
+Justin	Evans	7	4	30	23	40	122
+Patrick	Robinson	6	4	29	24	40	122
+Jourdan	Lewis	7	4	27	26	40	122
+Adoree'	Jackson	8	4	28	25	40	122
+Desmond	King	8	4	26	27	40	122
+Xavien	Howard	8	4	28	25	40	122
+Jake	Ryan	8	4	40	14	41	122
+Briean	Boddy-Calhoun	8	4	33	21	41	122
+Darryl	Roberts	8	4	28	26	41	122
+Solomon	Thomas	8	4	29	25	41	123
+Eddie	Goldman	8	4	33	21	41	124
+Martrell	Spaight	8	4	35	19	41	125
+Akiem	Hicks	8	4	31	23	41	126
+Jurrell	Casey	8	4	32	22	41	127
+Daryl	Worley	8	4	32	22	41	128
+Leonard	Floyd	8	4	34	20	41	129
+A.J.	Bouye	6	4	26	28	41	130
+Eric	Murray	8	4	30	25	42	130
+Lawrence	Guy	8	4	36	19	42	130
+Jerry	Hughes	8	4	37	18	42	131
+Logan	Ryan	8	4	30	25	42	132
+Phillip	Gaines	8	4	33	22	42	132
+Nicholas	Morrow	8	4	33	22	42	132
+Richard	Sherman	6	4	33	22	42	132
+Jabaal	Sheard	8	4	33	22	42	133
+Steve	McLendon	8	4	35	20	42	134
+Jalen	Ramsey	6	4	29	26	42	135
+Adarius	Glanton	8	4	34	22	43	136
+Emmanuel	OgbahE. Ogbah	8	4	38	18	43	137
+Kenny	ClarkK. Clark	8	4	36	20	43	138
+Ken	CrawleyK. Crawley	7	4	29	27	43	138
+Marcus	GilchristM. Gilchrist	7	4	32	24	43	139
+Terrell	SuggsT. Suggs	8	4	33	23	43	140
+E.J.	GainesE. Gaines	7	4	33	23	43	141
+Vinny	CurryV. Curry	8	4	35	21	43	142
+Brent	GrimesB. Grimes	7	4	28	28	43	143
+Kevin	MinterK. Minter	8	4	39	17	43	143
+Jarran	ReedJ. Reed	8	4	37	20	44	144
+Clay	MatthewsC. Matthews	8	4	35	22	44	145
+Kentrell	BriceK. Brice	7	4	32	25	44	146
+Von	MillerV. Miller	8	4	28	29	44	147
+Mike	HullM. Hull	8	4	35	22	44	148
+Kasey	RedfernK. Redfern	7	4	51	28	44	148
+Kawann	ShortK. Short	8	4	36	21	44	149
+Nickell	RobeyN. Robey	6	4	35	23	45	150
+Bashaud	BreelandB. Breeland	8	4	32	26	45	150
+Marcus	PetersM. Peters	5	4	30	28	45	150
+Casey	HaywardC. Hayward	7	4	35	23	45	150
+Malik	HookerM. Hooker	5	4	35	23	45	150
+Kendall	FullerK. Fuller	6	4	34	24	45	150
+William	GholstonW. Gholston	8	4	40	18	45	150
+Manti	Te'oM. Te'o	8	4	37	21	45	150
+Aaron	ColvinA. Colvin	8	4	32	26	45	150
+Haason	ReddickH. Reddick	8	4	37	21	45	150
+Ndamukong	SuhN. Suh	8	4	36	22	45	151
+Jordan	JenkinsJ. Jenkins	8	4	37	21	45	152
+Chris	HarrisC. Harris	7	4	35	24	46	153
+James	BurgessJ. Burgess	8	4	35	24	46	154
+Vontae	DavisV. Davis	8	4	35	24	46	155
+Rodney	McLeodR. McLeod	7	4	36	23	46	155
+Earl	MitchellE. Mitchell	8	4	38	21	46	156
+Kyle	WilliamsK. Williams	8	4	42	17	46	157
+Devon	KennardD. Kennard	8	4	40	19	46	158
+P.J.	WilliamsP. Williams	7	4	37	22	46	159
+Nick	PerryN. Perry	8	4	40	19	46	160
+Javon	HargraveJ. Hargrave	8	4	39	20	46	161
+Frank	ZomboF. Zombo	8	4	38	21	46	162
+Michael	BennettM. Bennett	8	4	37	22	46	163
+Mario	Edwards Jr.M. Edwards	8	4	36	23	46	164
+Cameron	WakeC. Wake	8	4	36	23	46	166
+Orlando	ScandrickO. Scandrick	8	4	33	26	46	167
+Gerald	McCoyG. McCoy	8	4	36	24	47	168
+Montae	NicholsonM. Nicholson	7	4	37	23	47	169
+Mitch	UnreinM. Unrein	8	4	36	24	47	169
+Brian	OrakpoB. Orakpo	8	4	36	24	47	170
+Brandon	GrahamB. Graham	8	4	38	22	47	171
+Eric	ReidE. Reid	8	4	36	24	47	172
+Brooks	ReedB. Reed	8	4	39	21	47	173
+Bradley	RobyB. Roby	7	4	34	26	47	174
+Kyle	EmanuelK. Emanuel	8	4	40	20	47	174
+Domata	PekoD. Peko	8	4	38	22	47	175
+Quinton	DunbarQ. Dunbar	7	4	34	26	47	176
+Bobby	McCainB. McCain	7	4	35	25	47	176
+William	ParksW. Parks	8	4	35	25	47	176
+Duke	RileyD. Riley	8	4	43	17	47	176
+Cassius	MarshC. Marsh	8	4	35	26	48	177
+Stephon	GilmoreS. Gilmore	7	4	34	27	48	178
+Cody	DavisC. Davis	7	4	38	23	48	178
+Eli	HaroldE. Harold	8	4	39	22	48	179
+-	Connor BarwinC. Barwin	8	4	35	26	48	180
+Kevin	KingK. King	8	4	37	24	48	181
+Johnathan	HankinsJ. Hankins	8	4	41	20	48	182
+Quinten	RollinsQ. Rollins	8	4	42	19	48	183
+Trevon	ColeyT. Coley	8	4	40	21	48	184
+Da'Norris	SearcyD. Searcy	7	4	43	18	48	185
+Shaq	LawsonS. Lawson	8	4	44	17	48	186
+Pat	SimsP. Sims	8	4	45	16	48	187
+Jonathan	CasillasJ. Casillas	8	4	35	26	48	187
+DaQuan	JonesD. Jones	8	4	40	21	48	187
+Shaquil	BarrettS. Barrett	8	4	36	25	48	188
+Matt	MilanoM. Milano	7	4	39	22	48	189
+Brock	CoyleB. Coyle	8	4	39	22	48	189
+Al	WoodsA. Woods	8	4	41	20	48	190
+Preston	SmithP. Smith	8	4	35	26	48	191
+Adam	GotsisA. Gotsis	8	4	37	25	49	192
+Derek	WolfeD. Wolfe	8	4	40	22	49	193
+Marquel	LeeM. Lee	8	4	38	24	49	194
+John	JohnsonJ. Johnson	7	4	37	25	49	194
+LeShaun	SimsL. Sims	8	4	36	26	49	194
+Josh	NormanJ. Norman	8	4	39	23	49	194
+Julius	PeppersJ. Peppers	8	4	38	24	49	195
+Nate	HairstonN. Hairston	8	4	36	26	49	196
+Alvin	DupreeA. Dupree	8	4	38	24	49	197
+Dalvin	TomlinsonD. Tomlinson	8	4	42	20	49	198
+Josh	MartinJ. Martin	8	4	40	22	49	199
+Bryce	CallahanB. Callahan	7	4	39	24	50	200
+Damien	WilsonD. Wilson	8	4	38	25	50	201
+David	OnyemataD. Onyemata	8	4	43	20	50	202
+Kayvon	WebsterK. Webster	8	4	35	28	50	203
+T.J.	WardT. Ward	8	4	39	24	50	203
+Chris	BakerC. Baker	8	4	37	26	50	203
+Chris	JonesC. Jones	7	4	40	23	50	204
+Anthony	HitchensA. Hitchens	8	4	39	24	50	205
+Frank	ClarkF. Clark	8	4	40	23	50	206
+Robert	AyersR. Ayers	8	4	42	21	50	207
+Brandon	MebaneB. Mebane	8	4	42	21	50	208
+Darius	PhilonD. Philon	8	4	41	22	50	209
+Dre	KirkpatrickD. Kirkpatrick	8	4	38	25	50	210
+Michael	JohnsonM. Johnson	8	4	38	26	51	211
+Jordan	RichardsJ. Richards	8	4	36	28	51	212
+Timmy	JerniganT. Jernigan	8	4	41	23	51	213
+Eddie	YarbroughE. Yarbrough	8	4	42	22	51	214
+Desmond	TrufantD. Trufant	7	4	37	27	51	214
+Christian	CovingtonC. Covington	8	4	41	23	51	215
+Aaron	DonaldA. Donald	8	4	39	25	51	216
+Sheldon	RichardsonS. Richardson	7	4	43	21	51	217
+Abry	JonesA. Jones	8	4	41	23	51	218
+Chris	McCainC. McCain	8	4	37	27	51	219
+Derrick	MorganD. Morgan	8	4	41	23	51	220
+Danny	SheltonD. Shelton	8	4	42	22	51	221
+Joe	HadenJ. Haden	7	4	37	27	51	222
+Kerry	WynnK. Wynn	8	4	40	24	51	223
+Rasul	DouglasR. Douglas	6	4	36	28	51	223
+Ibraheim	CampbellI. Campbell	8	4	38	26	51	225
+Calvin	MunsonC. Munson	8	4	41	24	52	225
+Carl	NassibC. Nassib	8	4	41	24	52	226
+Ross	CockrellR. Cockrell	8	4	41	24	52	227
+Barkevious	MingoB. Mingo	8	4	41	24	52	227
+Dexter	McDonaldD. McDonald	8	4	36	29	52	227
+Dontari	PoeD. Poe	8	4	42	23	52	228
+Yannick	NgakoueY. Ngakoue	8	4	40	25	52	229
+Mike	PennelM. Pennel	8	4	43	22	52	230
+Davon	HouseD. House	7	4	41	24	52	230
+Ryan	SmithR. Smith	8	4	36	29	52	230
+Marlon	HumphreyM. Humphrey	8	4	37	28	52	230
+Prince	AmukamaraP. Amukamara	8	4	37	28	52	230
+Brennan	ScarlettB. Scarlett	8	4	42	23	52	230
+Duron	HarmonD. Harmon	7	4	42	23	52	230
+Mike	DanielsM. Daniels	8	4	40	25	52	231
+James	CowserJ. Cowser	8	4	42	23	52	232
+J.J.	WattJ. Watt	8	4	40	25	52	232
+Clayton	FejedelemC. Fejedelem	7	4	41	24	52	232
+Jonathan	JonesJ. Jones	7	4	37	28	52	232
+Kavon	FrazierK. Frazier	8	4	38	27	52	232
+Adolphus	WashingtonA. Washington	8	4	44	22	53	232
+Kevin	JohnsonK. Johnson	8	4	42	24	53	232
+Jordan	WillisJ. Willis	8	4	43	23	53	233
+Deshazor	EverettD. Everett	8	4	42	24	53	234
+Anthony	LevineA. Levine	8	4	42	24	53	235
+Jeremiah	GeorgeJ. George	8	4	41	25	53	236
+Matt	IoannidisM. Ioannidis	8	4	45	21	53	237
+Rey	MaualugaR. Maualuga	8	4	41	25	53	238
+Derrick	ShelbyD. Shelby	8	4	45	21	53	239
+Maliek	CollinsM. Collins	8	4	43	23	53	240
+Matt	LongacreM. Longacre	8	4	40	26	53	241
+Tyeler	DavisonT. Davison	8	4	42	24	53	242
+Josh	MauroJ. Mauro	8	4	41	25	53	243
+Dont'a	HightowerD. Hightower	8	4	39	27	53	244
+Bradley	McDougaldB. McDougald	8	4	40	26	53	245
+Chris	SmithC. Smith	8	4	42	24	53	246
+Eddie	PleasantE. Pleasant	8	4	42	24	53	247
+Willie	HenryW. Henry	8	4	41	25	53	248
+Shelby	HarrisS. Harris	8	4	42	24	53	249
+Captain	MunnerlynC. Munnerlyn	8	4	39	27	53	250
+Josh	HawkinsJ. Hawkins	8	4	39	27	53	251
+Malik	JacksonM. Jackson	8	4	39	27	53	252
+Corey	PetersC. Peters	8	4	39	28	54	253
+T.J.	GreenT. Green	8	4	40	27	54	253
+Tyrone	CrawfordT. Crawford	8	4	42	25	54	254
+Quinton	DialQ. Dial	8	4	44	23	54	255
+Eli	AnkouE. Ankou	8	4	44	23	54	256
+Olivier	VernonO. Vernon	8	4	44	23	54	257
+Damion	SquareD. Square	8	4	42	25	54	258
+Frostee	RuckerF. Rucker	8	4	42	25	54	259
+Sean	SmithS. Smith	8	4	40	27	54	260
+Dante	Fowler Jr.D. Fowler	8	4	39	28	54	261
+Dee	FordD. Ford	8	4	40	27	54	262
+Kemal	IshmaelK. Ishmael	8	4	43	24	54	263
+Robert	QuinnR. Quinn	8	4	42	25	54	264
+Patrick	PetersonP. Peterson	8	4	40	27	54	265
+Paul	PoslusznyP. Posluszny	8	4	41	26	54	265
+Terrell	McClainT. McClain	8	4	41	26	54	266
+Pernell	McPheeP. McPhee	8	4	38	29	54	267
+Corey	MooreC. Moore	8	4	42	25	54	268
+Corey	GrahamC. Graham	7	4	40	27	54	268
+Brandon	WilliamsB. Williams	8	4	41	26	54	268
+Larry	OgunjobiL. Ogunjobi	8	4	46	22	55	268
+J.J.	WilcoxJ. Wilcox	7	4	42	26	55	268
+Deatrich	WiseD. Wise	8	4	43	25	55	269
+Nate	OrchardN. Orchard	8	4	45	23	55	270
+Davon	GodchauxD. Godchaux	8	4	43	25	55	271
+Kony	EalyK. Ealy	7	4	42	26	55	272
+Clinton	McDonaldC. McDonald	8	4	42	26	55	273
+Chris	JonesC. Jones	8	4	42	26	55	274
+Derek	BarnettD. Barnett	8	4	41	27	55	275
+Adam	ButlerA. Butler	8	4	44	24	55	276
+Tanzel	SmartT. Smart	8	4	44	24	55	277
+David	IrvingD. Irving	8	4	44	24	55	278
+Jamie	MederJ. Meder	8	4	43	25	55	279
+Xavier	WoodsX. Woods	8	4	40	28	55	279
+Quintin	DempsQ. Demps	8	4	40	28	55	279
+William	HayesW. Hayes	8	4	41	27	55	280
+Julian	StanfordJ. Stanford	8	4	41	27	55	281
+Marcus	CooperM. Cooper	8	4	39	29	55	281
+Blake	CountessB. Countess	8	4	40	28	55	281
+Trae	ElstonT. Elston	7	4	43	25	55	281
+Curtis	RileyC. Riley	7	4	43	25	55	281
+Cedric	ThorntonC. Thornton	8	4	43	25	55	282
+Corey	LiugetC. Liuget	8	4	41	27	55	283
+Tenny	PalepoiT. Palepoi	8	4	41	28	56	283
+Chris	MaragosC. Maragos	8	4	46	23	56	283
+Star	LotuleleiS. Lotulelei	8	4	46	23	56	284
+Pierre	DesirP. Desir	8	4	46	23	56	285
+Za'Darius	SmithZ. Smith	8	4	46	23	56	286
+Nick	DzubnarN. Dzubnar	8	4	45	24	56	287
+Michael	WilhoiteM. Wilhoite	8	4	43	26	56	287
+Kurtis	DrummondK. Drummond	8	4	43	26	56	288
+Damontae	KazeeD. Kazee	8	4	45	24	56	289
+Erik	WaldenE. Walden	8	4	43	26	56	290
+Myles	GarrettM. Garrett	8	4	44	25	56	291
+Karl	KlugK. Klug	8	4	44	25	56	292
+Markus	GoldenM. Golden	8	4	40	29	56	292
+Juston	BurrisJ. Burris	7	4	40	29	56	292
+Colin	JonesC. Jones	8	4	43	26	56	292
+Tramon	WilliamsT. Williams	7	4	40	29	56	292
+Marwin	EvansM. Evans	8	4	42	27	56	292
+Cordrea	TankersleyC. Tankersley	8	4	41	28	56	292
+Tyler	MatakevichT. Matakevich	8	4	43	26	56	292
+Adam	JonesA. Jones	8	4	42	27	56	292
+Xavier	WilliamsX. Williams	8	4	42	27	56	293
+William	GayW. Gay	7	4	42	27	56	294
+Nigel	HarrisN. Harris	8	4	43	26	56	294
+Andre	BranchA. Branch	8	4	44	26	57	295
+Stacy	McGeeS. McGee	8	4	46	24	57	296
+De'Vante	HarrisD. Harris	8	4	42	28	57	296
+Michael	ThomasM. Thomas	8	4	43	27	57	296
+Junior	GaletteJ. Galette	8	4	44	26	57	297
+Kevin	Pierre-LouisK. Pierre-Louis	8	4	43	27	57	298
+Nazair	JonesN. Jones	7	4	46	24	57	299
+Jonathan	BullardJ. Bullard	8	4	42	28	57	300
+Ryan	DavisR. Davis	8	4	45	25	57	301
+Whitney	MercilusW. Mercilus	8	4	42	28	57	301
+Vincent	TaylorV. Taylor	8	4	45	25	57	302
+Ryan	GlasgowR. Glasgow	8	4	47	23	57	302
+John	TimuJ. Timu	8	4	45	25	57	302
+Jerrell	FreemanJ. Freeman	8	4	44	26	57	302
+Fabian	MoreauF. Moreau	8	4	45	25	57	302
+Fletcher	CoxF. Cox	8	4	45	26	58	303
+Charles	JohnsonC. Johnson	8	4	49	22	58	304
+Michael	DavisM. Davis	8	4	43	28	58	304
+Kevon	SeymourK. Seymour	8	4	42	29	58	304
+Ahkello	WitherspoonA. Witherspoon	7	4	43	28	58	304
+Morgan	FoxM. Fox	8	4	43	28	58	305
+Josh	ShawJ. Shaw	8	4	43	28	58	306
+Trey	HendricksonT. Hendrickson	8	4	47	24	58	307
+Jaylen	WatkinsJ. Watkins	8	4	43	28	58	308
+Joel	HeathJ. Heath	8	4	44	27	58	309
+Will	ComptonW. Compton	8	4	47	24	58	310
+Chris	LongC. Long	8	4	44	27	58	311
+Noah	SpenceN. Spence	8	4	46	25	58	312
+David	MayoD. Mayo	8	4	46	25	58	313
+Carl	DavisC. Davis	8	4	42	29	58	313
+Reggie	RaglandR. Ragland	8	4	46	25	58	313
+Cory	LittletonC. Littleton	8	4	43	28	58	313
+Ethan	WestbrooksE. Westbrooks	8	4	45	26	58	314
+Dean	LowryD. Lowry	8	4	45	26	58	315
+Jeremy	LaneJ. Lane	8	4	42	29	58	315
+Rontez	MilesR. Miles	8	4	43	28	58	315
+Brandon	DunnB. Dunn	8	4	45	26	58	315
+Austin	EkelerA. Ekeler	8	4	45	26	58	315
+Byron	MaxwellB. Maxwell	8	4	43	29	59	315
+Elijhaa	PennyE. Penny	8	4	44	28	59	315
+Kareem	MartinK. Martin	8	4	45	27	59	315
+Reuben	FosterR. Foster	8	4	46	26	59	315
+Charles	HarrisC. Harris	8	4	44	28	59	316
+Sheldon	RankinsS. Rankins	8	4	48	24	59	317
+Curtis	GrantC. Grant	8	4	45	27	59	317
+Dawuane	SmootD. Smoot	8	4	45	27	59	317
+Treyvon	HesterT. Hester	8	4	46	26	59	317
+Margus	HuntM. Hunt	8	4	46	26	59	318
+Adrian	ColbertA. Colbert	8	4	45	27	59	319
+Austin	JohnsonA. Johnson	8	4	47	25	59	319
+Olsen	PierreO. Pierre	8	4	45	27	59	320
+Marcell	DareusM. Dareus	8	4	47	25	59	321
+Rayshawn	JenkinsR. Jenkins	8	4	45	27	59	322
+Caleb	BrantleyC. Brantley	8	4	44	28	59	323
+Jonathan	AndersonJ. Anderson	8	4	44	28	59	324
+Cornellius	CarradineC. Carradine	8	4	46	27	60	325
+Brice	McCainB. McCain	8	4	46	27	60	326
+Xavier	CooperX. Cooper	8	4	48	25	60	327
+Brian	PriceB. Price	8	4	46	27	60	328
+Benson	MayowaB. Mayowa	8	4	46	27	60	328
+Najee	GoodeN. Goode	8	4	44	29	60	328
+Marcus	WilliamsM. Williams	7	4	44	29	60	328
+Eric	BerryE. Berry	8	4	47	26	60	328
+Nate	EbnerN. Ebner	8	4	47	26	60	328
+Johnathan	CyprienJ. Cyprien	8	4	47	26	60	328
+Xavier	Woodson-LusterX. Woodson-Luster	8	4	47	26	60	328
+Rodney	GunterR. Gunter	8	4	47	26	60	328
+Willie	YoungW. Young	8	4	47	26	60	329
+Rakeem	Nunez-RochesR. Nunez-Roches	8	4	47	26	60	330
+Kyler	FackrellK. Fackrell	8	4	47	26	60	330
+Ramik	WilsonR. Wilson	8	4	44	29	60	330
+Marcus	SmithM. Smith	8	4	46	27	60	331
+DeAndre	Houston-CarsonD. Houston-Carson	8	4	44	29	60	332
+Shalom	LuaniS. Luani	8	4	45	28	60	332
+Takkarist	McKinleyT. McKinley	8	4	45	28	60	333
+Michael	JordanM. Jordan	8	4	45	28	60	334
+Eric	RoweE. Rowe	8	4	45	28	60	334
+Stephon	TuittS. Tuitt	8	4	45	28	60	334
+Samson	EbukamS. Ebukam	8	4	44	29	60	334
+Keith	TandyK. Tandy	8	4	44	29	60	334
+Dekoda	WatsonD. Watson	8	4	46	27	60	334
+Donte	DeayonD. Deayon	8	4	44	29	60	334
+Benny	CunninghamB. Cunningham	8	4	45	28	60	334
+Carl	LawsonC. Lawson	8	4	46	27	60	335
+Joe	WalkerJ. Walker	8	4	46	27	60	336
+Nick	KwiatkoskiN. Kwiatkoski	8	4	46	28	61	336
+Robert	ThomasR. Thomas	8	4	50	24	61	336
+Terence	GarvinT. Garvin	8	4	49	25	61	337
+Nate	PalmerN. Palmer	8	4	49	25	61	338
+Hassan	RidgewayH. Ridgeway	8	4	49	25	61	339
+Jordan	PhillipsJ. Phillips	8	4	49	25	61	340
+Tre	MaddenT. Madden	8	4	48	26	61	340
+Kyle	LoveK. Love	8	4	48	26	61	341
+Grover	StewartG. Stewart	8	4	48	26	61	342
+Terrence	FedeT. Fede	8	4	46	28	61	342
+Lenzy	PipkinsL. Pipkins	8	4	46	28	61	342
+Leger	DouzableL. Douzable	8	4	45	29	61	343
+Leterrius	WaltonL. Walton	8	4	47	27	61	344
+KeiVarae	RussellK. Russell	8	4	45	29	61	344
+James	OnwualuJ. Onwualu	8	4	47	27	61	344
+Elvis	DumervilE. Dumervil	8	4	47	27	61	345
+Tyrunn	WalkerT. Walker	8	4	46	28	61	346
+Brynden	TrawickB. Trawick	8	4	47	27	61	347
+Kamu	Grugier-HillK. Grugier-Hill	8	4	46	28	61	347
+Eddie	VanderdoesE. Vanderdoes	8	4	47	27	61	347
+Andre	HolmesA. Holmes	8	4	45	29	61	347
+Ahmad	BrooksA. Brooks	8	4	46	28	61	348
+Joe	WebbJ. Webb	8	4	47	27	61	349
+Bronson	KaufusiB. Kaufusi	8	4	49	26	62	349
+Dylan	DonahueD. Donahue	8	4	47	28	62	349
+Aaron	LynchA. Lynch	8	4	48	27	62	350
+Justin	DurantJ. Durant	8	4	48	27	62	351
+Charles	LenoC. Leno	8	4	46	29	62	351
+Kenny	MooreK. Moore	8	4	47	28	62	351
+Sylvester	WilliamsS. Williams	8	4	48	27	62	351
+Kyle	WilberK. Wilber	8	4	47	28	62	351
+Brian	PetersB. Peters	8	4	48	27	62	351
+Raheem	MostertR. Mostert	8	4	46	29	62	351
+Ryan	RussellR. Russell	8	4	47	28	62	351
+Adam	HumphriesA. Humphries	8	4	46	29	62	351
+Trey	EdmundsT. Edmunds	8	4	46	29	62	351
+Kenyan	DrakeK. Drake	8	4	47	28	62	351
+Justin	HardeeJ. Hardee	8	4	47	28	62	351
+Chris	WormleyC. Wormley	8	4	46	29	62	351
+Robert	GoldenR. Golden	8	4	46	29	62	351
+Dan	VitaleD. Vitale	8	4	46	29	62	351
+Destiny	VaeaoD. Vaeao	8	4	48	27	62	351
+Damontre	MooreD. Moore	8	4	48	27	62	351
+Nolan	CarrollN. Carroll	8	4	46	29	62	351
+Taco	CharltonT. Charlton	8	4	47	28	62	351
+Wes	HortonW. Horton	8	4	47	28	62	352
+Chris	MatthewsC. Matthews	8	4	46	29	62	353
+Marcus	WilliamsM. Williams	8	4	46	29	62	353
+Marquis	FlowersM. Flowers	8	4	47	28	62	353
+Joe	ThomasJ. Thomas	8	4	50	26	63	354
+Joe	VellanoJ. Vellano	8	4	50	26	63	355
+Bruce	CarterB. Carter	8	4	50	26	63	355
+Garrison	SmithG. Smith	8	4	50	26	63	355
+Roy	MillerR. Miller	8	4	50	26	63	355
+Steven	NelsonS. Nelson	8	4	49	27	63	355
+Rafael	BushR. Bush	8	4	48	28	63	356
+Brandon	KingB. King	8	4	48	28	63	357
+Neiko	ThorpeN. Thorpe	8	4	48	28	63	357
+James	O'ShaughnessyJ. O'Shaughnessy	8	4	48	28	63	357
+Sammie	CoatesS. Coates	8	4	47	29	63	357
+Demetrious	CoxD. Cox	8	4	47	29	63	357
+Taywan	TaylorT. Taylor	8	4	47	29	63	357
+Tony	McDanielT. McDaniel	8	4	47	29	63	357
+Peyton	ThompsonP. Thompson	8	4	48	28	63	357
+David	HarrisD. Harris	8	4	49	27	63	357
+Dexter	McDougleD. McDougle	8	4	48	28	63	357
+Lamarr	HoustonL. Houston	8	4	48	28	63	358
+Roy	Robertson-HarrisR. Robertson-Harris	8	4	49	27	63	359
+Ufomba	KamaluU. Kamalu	8	4	48	28	63	360
+Roosevelt	NixR. Nix	8	4	48	28	63	361
+Avery	MossA. Moss	8	4	49	27	63	361
+Brent	UrbanB. Urban	8	4	48	28	63	361
+Evander	HoodE. Hood	8	4	47	29	63	361
+Chris	CarterC. Carter	8	4	49	27	63	361
+Vince	MayleV. Mayle	8	4	47	29	63	361
+Jordan	TodmanJ. Todman	8	4	47	29	63	361
+Jairus	ByrdJ. Byrd	8	4	47	29	63	361
+Patrick	RicardP. Ricard	8	4	48	28	63	361
+Cre'von	LeBlancC. LeBlanc	8	4	47	29	63	361
+Robert	NelsonR. Nelson	8	4	47	29	63	361
+Garrett	CelekG. Celek	8	4	47	29	63	361
+Tye	SmithT. Smith	7	4	47	29	63	361
+Zak	DeOssieZ. DeOssie	8	4	49	27	63	361
+Stephen	PaeaS. Paea	8	4	48	28	63	361
+Erik	HarrisE. Harris	8	4	48	28	63	361
+Keith	McGillK. McGill	8	4	47	29	63	361
+Joe	CardonaJ. Cardona	8	4	49	27	63	361
+Keith	SmithK. Smith	8	4	47	29	63	361
+Corey	NelsonC. Nelson	8	4	49	27	63	361
+Matt	DayesM. Dayes	8	4	47	29	63	361
+Darrius	Heyward-BeyD. Heyward-Bey	8	4	51	26	64	361
+Cordarrelle	PattersonC. Patterson	8	4	49	28	64	361
+Brittan	GoldenB. Golden	8	4	49	28	64	361
+Mack	HollinsM. Hollins	8	4	49	28	64	361
+Andy	JanovichA. Janovich	8	4	49	28	64	361
+Lorenzo	JeromeL. Jerome	8	4	49	28	64	361
+Jared	NorrisJ. Norris	8	4	48	29	64	361
+Taiwan	JonesT. Jones	8	4	48	29	64	361
+Tyler	KroftT. Kroft	8	4	48	29	64	361
+JuJu	Smith-SchusterJ. Smith-Schuster	8	4	48	29	64	361
+Chris	MiltonC. Milton	8	4	48	29	64	361
+Roger	LewisR. Lewis	8	4	48	29	64	361
+Cooper	KuppC. Kupp	8	4	48	29	64	361
+Branden	JacksonB. Jackson	8	4	50	27	64	361
+Isaiah	JohnsonI. Johnson	8	4	48	29	64	361
+James	HarrisonJ. Harrison	8	4	48	29	64	362
+Stefan	McClureS. McClure	8	4	49	28	64	363
+Anthony	LanierA. Lanier	8	4	49	28	64	363
+Rod	SmithR. Smith	8	4	48	29	64	363
+Will	ClarkeW. Clarke	8	4	48	29	64	363
+Christian	McCaffreyC. McCaffrey	8	4	49	28	64	363
+Sheldon	DayS. Day	8	4	50	27	64	364
+Derek	WattD. Watt	8	4	49	28	64	365
+Shamarko	ThomasS. Thomas	8	4	48	29	64	365
+Corey	ClementC. Clement	8	4	50	27	64	365
+Shane	RayS. Ray	8	4	50	27	64	365
+Rhett	EllisonR. Ellison	8	4	49	28	64	365
+Romeo	OkwaraR. Okwara	8	4	50	27	64	365
+Cameron	LynchC. Lynch	8	4	48	29	64	365
+Jeff	JanisJ. Janis	8	4	48	29	64	365
+Robert	BlantonR. Blanton	8	4	49	28	64	365
+Jarvis	LandryJ. Landry	8	4	48	29	64	365
+Charles	TapperC. Tapper	8	4	49	28	64	366
+Ed	DicksonE. Dickson	8	4	50	27	64	367
+Sterling	MooreS. Moore	8	4	48	29	64	367
+Charley	HughlettC. Hughlett	8	4	49	28	64	367
+Robert	NkemdicheR. Nkemdiche	8	4	49	28	64	367
+Deon	LaceyD. Lacey	8	4	49	28	64	367
+Chris	BanjoC. Banjo	8	4	48	29	64	367
+Terrance	SmithT. Smith	8	4	48	29	64	367
+Isaiah	CrowellI. Crowell	8	4	48	29	64	367
+Sealver	SiligaS. Siliga	8	4	50	27	64	367
+DeAndre	HopkinsD. Hopkins	8	4	49	28	64	367
+Coty	SensabaughC. Sensabaugh	8	4	48	29	64	367
+Quincy	WilsonQ. Wilson	8	4	48	29	64	367
+Brian	CushingB. Cushing	8	4	50	27	64	367
+Carlos	WatkinsC. Watkins	8	4	50	27	64	367
+Devante	BondD. Bond	8	4	49	28	64	367
+Tanner	McEvoyT. McEvoy	8	4	48	29	64	367
+C.J.	UzomahC. Uzomah	8	4	48	29	64	367
+Russell	ShepardR. Shepard	8	4	48	29	64	367
+Rex BurkheadR. Burkhead	8	4	48	29	64	367
+Jordan	TaylorJ. Taylor	8	4	48	29	64	367
+Lerentee	McCrayL. McCray	8	4	50	27	64	368
+Johnny	HoltonJ. Holton	8	4	49	28	64	369
+Donald	PayneD. Payne	8	4	49	28	64	369
+Tim	WilliamsT. Williams	8	4	48	29	64	369
+Alterraun	VernerA. Verner	8	4	49	29	65	369
+Javien	ElliottJ. Elliott	8	4	49	29	65	369
+Sharrod	NeasmanS. Neasman	8	4	49	29	65	369
+Keelan	ColeK. Cole	8	4	49	29	65	369
+Lance	KendricksL. Kendricks	8	4	49	29	65	369
+Matt	SlaterM. Slater	8	4	49	29	65	369
+Blair	BrownB. Brown	8	4	49	29	65	369
+Duke	JohnsonD. Johnson	8	4	49	29	65	369
+Jarrod	WilsonJ. Wilson	8	4	49	29	65	369
+Dominique	HatfieldD. Hatfield	8	4	49	29	65	369
+Rashard	HigginsR. Higgins	8	4	49	29	65	369
+Seth	DevalveS. Devalve	8	4	49	29	65	369
+Shon	ColemanS. Coleman	8	4	49	29	65	369
+Marqise	LeeM. Lee	8	4	49	29	65	369
+Michael	ThomasM. Thomas	8	4	49	29	65	369
+Rigoberto	SanchezR. Sanchez	8	4	49	29	65	369
+Nordly	CapiN. Capi	8	4	49	29	65	369
+Benjamin	WatsonB. Watson	8	4	49	29	65	369
+Mike	WallaceM. Wallace	8	4	49	29	65	369
+Menelik	WatsonM. Watson	8	4	49	29	65	369
+Phillip	SupernawP. Supernaw	8	4	49	29	65	369
+Tyrell	WilliamsT. Williams	8	4	49	29	65	369
+Delanie	WalkerD. Walker	8	4	49	29	65	369
+Ukeme	EligweU. Eligwe	8	4	49	29	65	369
+Zach	MillerZ. Miller	8	4	49	29	65	369
+DeMarcus	WalkerD. Walker	8	4	49	29	65	369
+Chad	HansenC. Hansen	8	4	49	29	65	369
+Kyle	LongK. Long	8	4	49	29	65	369
+Bilal	PowellB. Powell	8	4	49	29	65	369
+Senorise	PerryS. Perry	8	4	49	29	65	369
+Taylor	GabrielT. Gabriel	8	4	49	29	65	369
+Eric	TomlinsonE. Tomlinson	8	4	49	29	65	369
+Amari	CooperA. Cooper	8	4	49	29	65	369
+Josh	ReynoldsJ. Reynolds	8	4	49	29	65	369
+Jehu	ChessonJ. Chesson	8	4	49	29	65	369
+Josh	BellamyJ. Bellamy	8	4	49	29	65	369
+Ronald	LearyR. Leary	8	4	49	29	65	369
+Niles	PaulN. Paul	8	4	49	29	65	369
+Jonathan	StewartJ. Stewart	8	4	49	29	65	369
+Arrelious	BennA. Benn	8	4	49	29	65	369
+Cliff	AvrilC. Avril	8	4	49	29	65	370
+Chris	OdomC. Odom	8	4	51	27	65	371
+Tanoh	KpassagnonT. Kpassagnon	8	4	51	27	65	371
+Darius	LathamD. Latham	8	4	51	27	65	371
+Justin	HamiltonJ. Hamilton	8	4	51	27	65	372
+Clark	HarrisC. Harris	8	4	51	27	65	373
+David	FluellenD. Fluellen	8	4	51	27	65	373
+Brandon	WilliamsB. Williams	8	4	51	27	65	373
+Jamize	OlawaleJ. Olawale	8	4	51	27	65	373
+Tanner	VallejoT. Vallejo	8	4	51	27	65	373
+Joe	MixonJ. Mixon	8	4	50	28	65	373
+Ricky	Jean-FrancoisR. Jean-Francois	8	4	50	28	65	373
+Dwayne	HarrisD. Harris	8	4	50	28	65	373
+Thomas	HennessyT. Hennessy	8	4	50	28	65	373
+De'Anthony	ThomasD. Thomas	8	4	50	28	65	373
+Delano	HillD. Hill	8	4	50	28	65	373
+Marqui	ChristianM. Christian	8	4	50	28	65	373
+Claude	PelonC. Pelon	8	4	50	28	65	373
+Cody	LatimerC. Latimer	8	4	49	29	65	373
+Marquette	KingM. King	8	4	49	29	65	373
+Bryce	HagerB. Hager	8	4	50	28	65	373
+Ahtyba	RubinA. Rubin	8	4	49	29	65	373
+Mike	TolbertM. Tolbert	8	4	50	28	65	373
+Jerel	WorthyJ. Worthy	8	4	50	28	65	373
+Ryan	SuccopR. Succop	8	4	50	28	65	373
+Deshaun	WatsonD. Watson	8	4	49	29	65	373
+C.J.	GoodwinC. Goodwin	8	4	49	29	65	373
+D.J.	AlexanderD. Alexander	8	4	49	29	65	373
+Bryan	CoxB. Cox	8	4	49	29	65	373
+Curtis	SamuelC. Samuel	8	4	50	28	65	373
+Eric	WeemsE. Weems	8	4	50	28	65	373
+Corey	GrantC. Grant	8	4	49	29	65	373
+Damien	WilliamsD. Williams	8	4	50	28	65	373
+Tyler	PatmonT. Patmon	8	4	49	29	65	373
+Jordan	EvansJ. Evans	8	4	50	28	65	373
+Damiere	ByrdD. Byrd	8	4	49	29	65	373
+Morgan	MosesM. Moses	8	4	50	28	65	373
+Xavier	Su'a-FiloX. Su'a-Filo	8	4	49	29	65	373
+J.D.	McKissicJ. McKissic	8	4	49	29	65	373
+Demario	DavisD. Davis	8	4	1	8	2	374
+Riley	DixonR. Dixon	8	4	49	29	65	375
+David	DeCastroD. DeCastro	8	4	49	29	65	375
+Joe	FlaccoJ. Flacco	8	4	49	29	65	375
+L.J.	FortL. Fort	8	4	49	29	65	375
+Jonathan	FreenyJ. Freeny	8	4	49	29	65	375
+A.J.	DerbyA. Derby	8	4	49	29	65	375
+Treston	DecoudT. Decoud	8	4	49	29	65	375
+Ryan	HewittR. Hewitt	8	4	50	28	65	375
+Jordan	MatthewsJ. Matthews	8	4	49	29	65	375
+Peyton	BarberP. Barber	8	4	49	29	65	375
+Hau'oli	KikahaH. Kikaha	8	4	49	29	65	376
+Nick	SundbergN. Sundberg	8	4	50	28	65	377
+Cameron	BrateC. Brate	8	4	49	29	65	377
+Michael	BurtonM. Burton	8	4	51	28	66	377
+Billy	TurnerB. Turner	8	4	50	29	66	377
+Randall	CobbR. Cobb	8	4	50	29	66	377
+Dexter	McCoilD. McCoil	8	4	50	29	66	377
+Trevor	DavisT. Davis	8	4	50	29	66	377
+Adrian	PetersonA. Peterson	8	4	50	29	66	377
+Wil	LutzW. Lutz	8	4	50	29	66	377
+Josh	HarrisJ. Harris	8	4	51	28	66	377
+Jordy	NelsonJ. Nelson	8	4	50	29	66	377
+Aaron	RipkowskiA. Ripkowski	8	4	50	29	66	377
+Isaac	RochellI. Rochell	8	4	50	29	66	377
+David	KingD. King	8	4	51	28	66	377
+Justin	VogelJ. Vogel	8	4	50	29	66	377
+Jason	VerrettJ. Verrett	8	4	50	29	66	377
+Nathan	StuparN. Stupar	8	4	50	29	66	377
+Kenny	WigginsK. Wiggins	8	4	50	29	66	377
+Mike	WilliamsM. Williams	8	4	50	29	66	377
+Jamaal	WilliamsJ. Williams	8	4	50	29	66	377
+Justin	March-LillardJ. March-Lillard	8	4	51	28	66	377
+Ka'imi	FairbairnK. Fairbairn	8	4	50	29	66	377
+Tyler	ErvinT. Ervin	8	4	50	29	66	377
+Will	FullerW. Fuller	8	4	50	29	66	377
+Shane	LechlerS. Lechler	8	4	50	29	66	377
+Braxton	MillerB. Miller	8	4	50	29	66	377
+Lawrence	ThomasL. Thomas	8	4	51	28	66	377
+Jack	DoyleJ. Doyle	8	4	50	29	66	377
+Orleans	DarkwaO. Darkwa	8	4	50	29	66	377
+Matt	HazelM. Hazel	8	4	50	29	66	377
+Krishawn	HoganK. Hogan	8	4	50	29	66	377
+Brandon	FuscoB. Fusco	8	4	50	29	66	377
+Marquise	GoodwinM. Goodwin	8	4	50	29	66	377
+Leon	HallL. Hall	8	4	50	29	66	377
+Henry	Krieger CobleH. Krieger Coble	8	4	50	29	66	377
+Brian	HoyerB. Hoyer	8	4	50	29	66	377
+Carlos	HydeC. Hyde	8	4	50	29	66	377
+Asa	JacksonA. Jackson	8	4	50	29	66	377
+D.J.	FlukerD. Fluker	8	4	50	29	66	377
+Wayne	GallmanW. Gallman	8	4	50	29	66	377
+Donte	MoncriefD. Moncrief	8	4	50	29	66	377
+Kyle	JuszczykK. Juszczyk	8	4	50	29	66	377
+Daniel	KilgoreD. Kilgore	8	4	50	29	66	377
+George	KittleG. Kittle	8	4	50	29	66	377
+Elijah	LeeE. Lee	8	4	50	29	66	377
+Robert	TurbinR. Turbin	8	4	50	29	66	377
+Ed	StinsonE. Stinson	8	4	51	28	66	377
+Anthony	WalkerA. Walker	8	4	50	29	66	377
+Michael	BennettM. Bennett	8	4	50	29	66	377
+Mark	NzeochaM. Nzeocha	8	4	50	29	66	377
+John	JerryJ. Jerry	8	4	50	29	66	377
+Aldrick	RobinsonA. Robinson	8	4	50	29	66	377
+Tommy	BohanonT. Bohanon	8	4	50	29	66	377
+Joe	StaleyJ. Staley	8	4	50	29	66	377
+Eric	SaubertE. Saubert	8	4	50	29	66	377
+Trent	TaylorT. Taylor	8	4	50	29	66	377
+Blake	BortlesB. Bortles	8	4	50	29	66	377
+Brandon	MarshallB. Marshall	8	4	50	29	66	377
+A.J.	GreenA. Green	8	4	51	28	66	377
+Allen	HurnsA. Hurns	8	4	50	29	66	377
+Steven	JohnsonS. Johnson	8	4	51	28	66	377
+Hardy	NickersonH. Nickerson	8	4	51	28	66	377
+Justin	PughJ. Pugh	8	4	50	29	66	377
+Doug	BaldwinD. Baldwin	8	4	50	29	66	377
+Patrick	OmamehP. Omameh	8	4	50	29	66	377
+Justin	BrittJ. Britt	8	4	50	29	66	377
+Jermey	ParnellJ. Parnell	8	4	50	29	66	377
+Aldrick	RosasA. Rosas	8	4	50	29	66	377
+Kasim	EdebaliK. Edebali	8	4	51	28	66	377
+Sterling	ShepardS. Shepard	8	4	50	29	66	377
+Tyrique	JarrettT. Jarrett	8	4	51	28	66	377
+Zach	KerrZ. Kerr	8	4	51	28	66	377
+Blidi	Wreh-WilsonB. Wreh-Wilson	8	4	50	29	66	377
+Jared	VeldheerJ. Veldheer	8	4	50	29	66	377
+Lafayette	PittsL. Pitts	8	4	50	29	66	377
+Dewey	McDonaldD. McDonald	8	4	50	29	66	377
+Shane	VereenS. Vereen	8	4	50	29	66	377
+Dustin	ColquittD. Colquitt	8	4	50	29	66	377
+Chris	ConleyC. Conley	8	4	50	29	66	377
+Tyler	OttT. Ott	8	4	50	29	66	377
+Ben	HeeneyB. Heeney	8	4	51	28	66	377
+Paul	RichardsonP. Richardson	8	4	50	29	66	377
+Morgan	CoxM. Cox	8	4	50	29	66	377
+Kerwynn	WilliamsK. Williams	8	4	50	29	66	377
+Nick	MartinN. Martin	8	4	51	28	66	377
+Akeem	HuntA. Hunt	8	4	50	29	66	377
+Jarvis	JenkinsJ. Jenkins	8	4	50	29	66	377
+Jay	ProschJ. Prosch	8	4	51	28	66	377
+Alex	SmithA. Smith	8	4	50	29	66	377
+Xavier	GrimbleX. Grimble	8	4	51	28	66	377
+Luke	WillsonL. Willson	8	4	50	29	66	377
+Russell	WilsonR. Wilson	8	4	50	29	66	377
+Jaelen	StrongJ. Strong	8	4	51	28	66	377
+Jermaine	KearseJ. Kearse	8	4	50	29	66	377
+Demetrius	HarrisD. Harris	8	4	51	28	66	377
+James	WinchesterJ. Winchester	8	4	50	29	66	377
+Scooby	WrightS. Wright	8	4	50	29	66	377
+Derek	CarrierD. Carrier	8	4	50	29	66	377
+Brandon	McManusB. McManus	8	4	51	28	66	377
+Gerald	EverettG. Everett	8	4	50	29	66	377
+Charone	PeakeC. Peake	8	4	50	29	66	377
+Jaylen	HillJ. Hill	8	4	50	29	66	377
+Trey	BurtonT. Burton	8	4	51	28	66	377
+Demar	DotsonD. Dotson	8	4	50	29	66	377
+Brandon	BrooksB. Brooks	8	4	51	28	66	377
+Austin	HowardA. Howard	8	4	50	29	66	377
+Mike	EvansM. Evans	8	4	50	29	66	377
+Rob	HavensteinR. Havenstein	8	4	50	29	66	377
+Tyler	HigbeeT. Higbee	8	4	50	29	66	377
+Bennie	FowlerB. Fowler	8	4	49	29	65	377
+Edmond	RobinsonE. Robinson	8	4	50	29	66	377
+Troy	HillT. Hill	8	4	50	29	66	377
+Andre	EllingtonA. Ellington	8	4	50	29	66	377
+Johnathan	FordJ. Ford	8	4	50	29	66	377
+Ben	GarlandB. Garland	8	4	50	29	66	377
+Ali	MarpetA. Marpet	8	4	50	29	66	377
+Andrew	WhitworthA. Whitworth	8	4	50	29	66	377
+Justin	TuckerJ. Tucker	8	4	50	29	66	377
+Jermon	BushrodJ. Bushrod	8	4	50	29	66	377
+Patrick	MurrayP. Murray	8	4	50	29	66	377
+John	DenneyJ. Denney	8	4	50	29	66	377
+Jonathan	WeeksJ. Weeks	8	4	51	28	66	377
+Evan	SmithE. Smith	8	4	50	29	66	377
+Michael	CrabtreeM. Crabtree	8	4	50	29	66	377
+Terrance	WestT. West	8	4	50	29	66	377
+Patrick	DiMarcoP. DiMarco	8	4	50	29	66	377
+Antonio	HamiltonA. Hamilton	8	4	50	29	66	377
+Jameis	WinstonJ. Winston	8	4	50	29	66	377
+Stephen	HauschkaS. Hauschka	8	4	50	29	66	377
+Matt	CasselM. Cassel	8	4	50	29	66	377
+MarQueis	GrayM. Gray	8	4	50	29	66	377
+Kevin	DoddK. Dodd	8	4	50	29	66	377
+Nick	O'LearyN. O'Leary	8	4	50	29	66	377
+Rodney	HudsonR. Hudson	8	4	50	29	66	377
+Brandon	TateB. Tate	8	4	50	29	66	377
+Rishard	MatthewsR. Matthews	8	4	50	29	66	377
+Eric	WoodE. Wood	8	4	50	29	66	377
+Ja'Wuan	JamesJ. James	8	4	50	29	66	377
+DeMarco	MurrayD. Murray	8	4	50	29	66	377
+Jermaine	GreshamJ. Gresham	8	4	50	29	66	377
+Dwight	FreeneyD. Freeney	8	4	51	28	66	378
+Marshawn	LynchM. Lynch	8	4	50	29	66	379
+Darren	SprolesD. Sproles	8	4	51	28	66	379
+Demetrius	McCrayD. McCray	8	4	50	29	66	379
+Andrew	GachkarA. Gachkar	8	4	50	29	66	379
+Cam	NewtonC. Newton	8	4	50	29	66	379
+Ben	JacobsB. Jacobs	8	4	51	28	66	379
+David	ParryD. Parry	8	4	51	28	66	379
+Trai	TurnerT. Turner	8	4	50	29	66	379
+Fozzy	WhittakerF. Whittaker	8	4	50	29	66	379
+Donald	PennD. Penn	8	4	50	29	66	379
+Lee	SmithL. Smith	8	4	50	29	66	379
+Aaron	WallaceA. Wallace	8	4	50	29	66	379
+Reid	FergusonR. Ferguson	8	4	51	28	66	379
+Daniel	BrownD. Brown	8	4	50	29	66	379
+Deon	BushD. Bush	8	4	50	29	66	379
+DeAndre	WashingtonD. Washington	8	4	50	29	66	379
+Julius	ThomasJ. Thomas	8	4	50	29	66	379
+Tarik	CohenT. Cohen	8	4	50	29	66	379
+Sherrick	McManisS. McManis	8	4	50	29	66	379
+Chase	RoullierC. Roullier	8	4	51	28	66	379
+Kirk	CousinsK. Cousins	8	4	50	29	66	379
+Jamison	CrowderJ. Crowder	8	4	50	29	66	379
+Vernon	DavisV. Davis	8	4	50	29	66	379
+Adam	ShaheenA. Shaheen	8	4	50	29	66	379
+Kendall	WrightK. Wright	8	4	50	29	66	379
+Ronald	DarbyR. Darby	8	4	50	29	66	379
+Tony	McRaeT. McRae	8	4	50	29	66	379
+David	BassD. Bass	8	4	51	28	66	379
+Trae	ElstonT. Elston	8	4	50	29	66	379
+Zach	ErtzZ. Ertz	8	4	50	29	66	379
+D.J.	HumphriesD. Humphries	8	4	50	29	66	379
+Andy	DaltonA. Dalton	8	4	50	29	66	379
+Justin	HardyJ. Hardy	8	4	50	29	66	379
+Alex	EricksonA. Erickson	8	4	50	29	66	379
+David	JohnsonD. Johnson	8	4	50	29	66	379
+Brandon	LaFellB. LaFell	8	4	50	29	66	379
+Austin	HooperA. Hooper	8	4	50	29	66	379
+Elijah	QuallsE. Qualls	8	4	51	28	66	379
+James	DevelinJ. Develin	8	4	50	29	66	379
+Phillip	DorsettP. Dorsett	8	4	50	29	66	379
+Brandon	ScherffB. Scherff	8	4	50	29	66	379
+Trey	HopkinsT. Hopkins	8	4	50	29	66	379
+Rick	LovatoR. Lovato	8	4	50	29	66	379
+Wendell	SmallwoodW. Smallwood	8	4	50	29	66	379
+Kevin	HuberK. Huber	8	4	50	29	66	379
+Chris	ThompsonC. Thompson	8	4	50	29	66	379
+Trent	WilliamsT. Williams	8	4	50	29	66	379
+Torrey	SmithT. Smith	8	4	50	29	66	379
+Geneo	GrissomG. Grissom	8	4	50	29	66	379
+Halapoulivaati	VaitaiH. Vaitai	8	4	50	29	66	379
+Cedric	OgbuehiC. Ogbuehi	8	4	50	29	66	379
+Derron	SmithD. Smith	8	4	50	29	66	379
+Carson	WentzC. Wentz	8	4	50	29	66	379
+Kenny	BrittK. Britt	8	4	50	29	66	379
+Deon	KingD. King	8	4	50	29	66	379
+Chris	HoganC. Hogan	8	4	50	29	66	379
+T.Y.	McGillT. McGill	8	4	50	29	66	379
+J.C.	TretterJ. Tretter	8	4	50	29	66	379
+Harvey	LangiH. Langi	8	4	50	29	66	379
+Kasen	WilliamsK. Williams	8	4	50	29	66	379
+Ifeanyi	MomahI. Momah	8	4	50	29	66	379
+Trevor	ReillyT. Reilly	8	4	50	29	66	379
+Kevin	ZeitlerK. Zeitler	8	4	50	29	66	379
+Andrew	LevitreA. Levitre	8	4	50	29	66	379
+Cole	BeasleyC. Beasley	8	4	50	29	66	379
+Daniel	McCullersD. McCullers	8	4	50	29	66	379
+Vance	McDonaldV. McDonald	8	4	50	29	66	379
+Travis	FrederickT. Frederick	8	4	50	29	66	379
+Arthur	MoatsA. Moats	8	4	50	29	66	379
+Chaz	GreenC. Green	8	4	50	29	66	379
+Eli	RogersE. Rogers	8	4	50	29	66	379
+Joe	ThuneyJ. Thuney	8	4	50	29	66	379
+James	HannaJ. Hanna	8	4	50	29	66	379
+Justin	March-LillardJ. March-Lillard	8	4	50	29	66	379
+Devontae	BookerD. Booker	8	4	50	29	66	379
+Alejandro	VillanuevaA. Villanueva	8	4	50	29	66	379
+Jamal	CarterJ. Carter	8	4	50	29	66	379
+Terron	ArmsteadT. Armstead	8	4	50	29	66	379
+Jamaal	CharlesJ. Charles	8	4	50	29	66	379
+Max	GarciaM. Garcia	8	4	50	29	66	379
+Adam	BighillA. Bighill	8	4	50	29	66	379
+Drew	BreesD. Brees	8	4	50	29	66	379
+Jerrol	Garcia-WilliamsJ. Garcia-Williams	8	4	50	29	66	379
+Virgil	GreenV. Green	8	4	50	29	66	379
+De'Angelo	HendersonD. Henderson	8	4	50	29	66	379
+Casey	KreiterC. Kreiter	8	4	50	29	66	379
+Ted	Ginn Jr.T. Ginn	8	4	50	29	66	379
+Isaiah	McKenzieI. McKenzie	8	4	50	29	66	379
+Matt	ParadisM. Paradis	8	4	50	29	66	379
+Chris	GodwinC. Godwin	8	4	50	29	66	379
